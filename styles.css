@@ -2,43 +2,39 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Inter', sans-serif;
-	background-color: #ffffff;
+	background-color: #effad5;
 }
 
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 20px;																																																																																																																																																																																		
 }
 
 .logo img{
 	float: left;
-	width: 50px;
-	height: 50px;
-
-}
-
-.logo img {
-	transform: scale(0.8);
+	width: 60px;
+	height: 60px;
+	background-color: #effad5 ;
 }
 
 .navigation {
     display: flex;
     justify-content: flex-end;
-	background-color: #f2f2f2;
 	overflow: hidden;
-	border-radius: 5px;
-	margin-bottom: 20px;
-}
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background-color: #effad5;
 
-.nav-link {
+}
+.nav-link{
 	float: right;
-	display: block;
 	color: #666;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-weight: bold;
+
 }
 
 .nav-link img{
@@ -59,15 +55,14 @@ body{
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.feature-image {
-	margin-bottom: 30px;
+
+.featured-image img {
+	background-size: contain;
+	
+	
 }
 
-.feature-image img {
-	max-width: 100%;
-}
-
-.programmes, .recette {
+.programmes .recette { 
 	margin-bottom: 50px;
 }
 
