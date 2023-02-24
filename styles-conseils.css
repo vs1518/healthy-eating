@@ -1,0 +1,126 @@
+.cards{
+	display: flex;
+	margin: 2rem;
+
+
+}
+
+.card{
+	/*display: flex;
+	margin: 2rem;
+	background-color: #5B9279;
+	max-width: 350px;
+	width: auto;
+    height: auto;
+	border-radius: 10px;
+	position: absolute;
+    top: 50%; left: 50%;
+	transform: translate(-50%, -50%); 
+ flex-wrap: wrap;*/
+
+ 	background-color: #5B9279;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    height: 400px;
+
+}
+
+
+/*.image{
+
+	position: relative;
+	max-width: 350px;
+	width: auto;
+    height: auto;
+	
+	
+  
+	
+	
+	margin: 20px;
+    padding: 150px 0px 150px 0px;
+	border-radius: 10px;
+	opacity: 1;
+	
+
+}*/
+
+.image_verre{
+	background-image: url(verre.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+    height:70%;
+
+}
+    
+.image_nouilles{
+	background-image: url(nouilles.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+    height:70%;
+
+}
+
+.image_plate{
+	background-image: url(plate.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+    height:70%;
+
+}
+
+    
+    
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 310px;
+	margin: auto;
+	opacity: 0;
+	transition: .3s ease;
+	background-color:hsl(0, 0%, 0%);
+	border-radius: 10px;
+	cursor: pointer;
+
+	
+	
+  }
+
+.overlay:hover {
+	opacity: 0.3;
+	background-image: url(images/icon-view.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    
+  }
+
+
+.text {
+    width: 310px;
+    margin:20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.footer {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 20px ; 
+}
