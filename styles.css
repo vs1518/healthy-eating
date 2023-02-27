@@ -27,6 +27,7 @@ body{
 	background-color: #effad5;
 
 }
+
 .nav-link{
 	float: right;
 	color: #666;
@@ -34,7 +35,6 @@ body{
 	padding: 14px 16px;
 	text-decoration: none;
 	font-weight: bold;
-
 }
 
 .nav-link img{
@@ -48,49 +48,14 @@ body{
 	color: #333;
 }
 
-.content {
-	background-color: #fff;
-	padding: 20px;
-	border-radius: 5px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
 
-.featured-image img {
-	background-size: contain;
 	
 	
 }
-
-.programmes .recette { 
-	margin-bottom: 50px;
-}
-
-h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-
-p {
-	font-size: 18px;
-	line-height: 1.5;
-	margin-bottom: 30px;
-}
-
-.cta-button {
-	background-color: #ff7f50;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	font-size: 18px;
-	font-weight: bold;
-	cursor: pointer;
-}
-
-.cta-button:hover {
-	background-color: #ff6347;
-}
+	.slide-3 {
+	background-image: url("featured-image.jpg");
+	}
 
 .footer {
 	background-color: #f2f2f2;
