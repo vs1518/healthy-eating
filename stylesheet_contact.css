@@ -1,11 +1,15 @@
 @charset "utf-8";
 
 .banner{
-    background-image: url(images_contact/contact_banner.jpg);
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.5),hsl(0,0,0,0.5)), url(images_contact/contact_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 15rem;
+}
+
+p{
+    color: #5B9279;
 }
 
 h1{
@@ -25,19 +29,32 @@ hr{
 }
 
 .card_telephone{
-    background-color: tomato;
     text-align: center;
     padding: 2rem;
+}
+
+.logo_telephone{
+    color: #5B9279;
 }
 
 .card_mail{
-    background-color: tomato;
     text-align: center;
     padding: 2rem;
 }
 
+.logo_mail{
+    color:#5B9279;
+}
+
+.mail{
+    text-decoration: underline;
+}
+
 .card_social{
-    background-color: tomato;
     text-align: center;
     padding: 2rem;
+}
+
+.logo_social{
+    color:#5B9279;
 }
