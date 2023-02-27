@@ -39,7 +39,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     margin: 2rem;
-    height: 450px;
+    height: 500px;
     box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 
@@ -82,4 +82,40 @@ p{
 
 h2{
     margin: 0px;
+}
+
+@media (max-width:500px) {
+    .banner{
+        height: 20%;
+        padding: 1rem;
+    }
+
+    .description_banner{
+        padding-right: 0;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0;
+    }
+
+    .card{
+        margin: 2rem 0 2rem 1.5rem;
+    }
+}
+
+@media (max-width:950px) {
+    .description_banner{
+        padding-right: 5rem;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .text{
+        padding-top: 0;
+    }
 }
