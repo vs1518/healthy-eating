@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .banner{
-    background-image: linear-gradient(hsla(0, 0%, 0%, 0.5),hsl(0,0,0,0.5)), url(images_contact/contact_banner.jpg);
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.5),hsla(0,0,0,0.5)), url(images_contact/contact_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
