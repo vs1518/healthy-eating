@@ -16,6 +16,7 @@ p{
 h1{
     text-align: center;
     color: #ffffff;
+    padding-top: 6rem;
 }
 
 .cards{
@@ -26,7 +27,7 @@ h1{
 
 hr{
     margin: 1rem;
-    border: 1.5px solid#5B9279;
+    border: 1.5px solid#333333;
 }
 
 .card_telephone{
@@ -35,7 +36,8 @@ hr{
 }
 
 .logo_telephone{
-    color: #5B9279;
+    color: #333333;
+    font-size: xx-large;
 }
 
 .card_mail{
@@ -44,7 +46,8 @@ hr{
 }
 
 .logo_mail{
-    color:#5B9279;
+    color:#333333;
+    font-size: xx-large;
 }
 
 .mail{
@@ -57,5 +60,13 @@ hr{
 }
 
 .logo_social{
-    color:#5B9279;
+    color:#333333;
+    font-size: xx-large;
+}
+
+.logo_socials{
+    display: flex;
+    justify-content: center;
+    gap:  2rem;
+    font-size: larger;
 }
