@@ -28,42 +28,67 @@
 		</nav>
 		<main class="content">
 			<div class="entet">
-				<h1>Trouver une recette healthy</h1>
-				<p>manger mieux ,pas moins</p>
+				<h1 class="text">Trouver une recette healthy</h1>
+				<p class="text">manger mieux ,pas moins</p>
 			</div>
-			<!-- barre de recherche-->
-			<div class="loupe"><img src="/loupe.png" alt=loupe class="img-loupe"></div>
+			
+			
 			
 			<div class="categories"> 
 			<!-- carte vegan -->
-                <div class="vegan"> 
+                
+                <div class="vegan" id="card"> 
                     <div class="image-vegan"></div>
-                    <div class="text.vegan">
-                        <p>Végan</p>
+					<div class="overlay"></div>
+                    <div class="text">
+                        <h4><a href="#" target="_blank">Végan</a></h4>
 					</div>
-                    </div>
+                </div>
+			
             
            <!-- carte gluten  -->
-                <div class="sans-gluten"> 
+                	   
+                <div class="sans-gluten" id="card"> 
                     <div class="image-gluten"></div>
-                    <div class="text.gluten">
-                        <p>sans gluten</p>
+					<div class="overlay"></div>
+                    <div class="text">
+                        <h4><a href="#" target="_blank">sans gluten</a></h4>
                         
                     </div>
                 </div>
+			
               <!-- carte sans lactos  -->
-                <div class="sans-lactos">
+			  
+                <div class="sans-lactos" id="card">
                     <div class="image-lactos"></div>
-                    <div class="text.lactos">
-                        <p>sans lactos<p>
+					<div class="overlay"></div>
+                    <div class="text">
+                        <h4><a href="#" target="_blank">sans lactos</a></h4>
                         
                     </div>
                 </div>
+			  
 		
 			</div>
 		</main>
 		
 		<footer class="footer">
+			<div class="container">
+				<h2>S'abonner</h2>
+				<p>Oui ! Je souhaite recevoir des offres exclusives, des idées de nutrition uniques et des astuces personnalisées pour une alimentation saine.</p>
+			</div>
+			
+			<div class="container" style="background-color:white">
+				<input type="text" placeholder="Name" name="name" required>
+				<input type="text" placeholder="Email address" name="mail" required>
+			</div>
+			
+			<div class="container">
+				<input type="submit" value="S'abonner">
+			</div>
+			<div class=cont></div>
+		
+			
 
 		</footer>
 
