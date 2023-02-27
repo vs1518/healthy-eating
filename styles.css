@@ -11,6 +11,8 @@ body{
 	padding: 20px;
 }
 
+
+/* logo-heart */
 .logo img{
 	float: left;
 	width: 50px;
@@ -18,10 +20,7 @@ body{
 
 }
 
-.logo img {
-	transform: scale(0.8);
-}
-
+/* buttons on the right side */
 .navigation {
     display: flex;
     justify-content: flex-end;
@@ -29,19 +28,20 @@ body{
 	overflow: hidden;
 	border-radius: 5px;
 	margin-bottom: 20px;
-	color: #32572f
+	color: #4c7f44;
 }
 
 .nav-link {
 	float: right;
 	display: block;
-	color: #666;
+	color: #4c7f44;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-weight: bold;
 }
 
+/* profil et loupe */
 .nav-link img{
 	float: left;
 	width: 20px;
@@ -53,6 +53,7 @@ body{
 	color: #333;
 }
 
+/* main part of the page */
 .content {
 	background-color: #fff;
 	padding: 20px;
@@ -60,11 +61,11 @@ body{
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.feature-image {
+.featured-image {
 	margin-bottom: 30px;
 }
 
-.feature-image img {
+.featured-image img {
 	max-width: 100%;
 }
 
@@ -72,31 +73,6 @@ body{
 	margin-bottom: 50px;
 }
 
-h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-
-p {
-	font-size: 18px;
-	line-height: 1.5;
-	margin-bottom: 30px;
-}
-
-.cta-button {
-	background-color: #ff7f50;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	font-size: 18px;
-	font-weight: bold;
-	cursor: pointer;
-}
-
-.cta-button:hover {
-	background-color: #ff6347;
-}
 
 .footer {
 	background-color: #f2f2f2;
