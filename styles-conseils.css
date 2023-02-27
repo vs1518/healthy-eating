@@ -1,15 +1,78 @@
 
-body{background-color: #EAF4D3;
+/*body{background-color: #EAF4D3;
 }
 
 
 .content{
 	width: 1400px;
 	margin: auto;
+
+}*/
+
+
+#wrap{
+	width: 408px; 
+	height: 50px; 
+	margin: 0;
+	z-index: 80; 
+	position: relative; 
+	background-color: #bc1ea2;
+	}
+
+	.navbar{
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	position: absolute; 
+	}
+
+	.navbar li{
+	height: auto;
+	width: 135.8px; 
+	float: left;  
+	text-align: center; 
+	list-style: none;  
+	font: normal bold 13px/1em 'Outfit', Verdana, Helvetica;  
+	padding: 0;
+	margin: 0;
+	background-color: #9b2b2b;
+	}
+
+	.navbar a{							
+	padding: 18px 0;  
 	
+	border: 1px solid #a8dc1c;;
+	text-decoration: none; 
+	color: rgb(92, 45, 158); 
+	display: block;
+	}
+	.navbar li:hover, a:hover {
+	background-color: #444444;
+	} 
+	.navbar li ul{
+	display: none;
+	height: auto;									
+	margin: 0; 
+	padding: 0; 
+	}				
+	.navbar li:hover ul{
+	display: block;
+	}
+	.navbar li ul li {
+	background-color: #444444;
+	} 
+	.navbar li ul li a{
+	border-left: 1px solid #444444; 
+	border-right: 1px solid #444444; 
+	border-top: 1px solid #c9d4d8; 
+	border-bottom: 1px solid #444444; 
+	}
+	.navbar li ul li a:hover{
+	background-color: #a3a1a1;
+	}
 
 
-}
+
 .container_last{
 	display: flex;
 	flex-wrap: wrap;
@@ -73,6 +136,16 @@ body{background-color: #EAF4D3;
 #eggs{
 	background-image: url(eggs.jpg);
 }
+#fish{
+	background-image: url(fish.jpg);
+}
+#pasta{
+	background-image: url(pasta.jpg);
+}
+
+#ginger{
+	background-image: url(ginger.jpg);
+}
 
 .overlay{
 	position: absolute;
@@ -135,6 +208,27 @@ a:hover{
 }
 
 
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+        
+.pagination {
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    display: flex;
+	font-family: bold;
+	font-size: 1,9rem;
+}
+        
+.pagination li {
+    margin: 10px;
+	margin-top: 50px;
+}
+    
 
 @media (max-width: 375px){
 	.card{
