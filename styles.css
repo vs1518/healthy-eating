@@ -2,34 +2,39 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Inter', sans-serif;
-	background-color: #effad5;
+	background-color: #ffffff;
 }
 
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 20px;																																																																																																																																																																																		
+	padding: 20px;
 }
 
 .logo img{
 	float: left;
-	width: 60px;
-	height: 60px;
-	background-color: #effad5 ;
+	width: 50px;
+	height: 50px;
+
+}
+
+.logo img {
+	transform: scale(0.8);
 }
 
 .navigation {
     display: flex;
     justify-content: flex-end;
+	background-color: #ffffff;
 	overflow: hidden;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	background-color: #effad5;
-
+	border-radius: 5px;
+	margin-bottom: 20px;
+	color: #32572f
 }
 
-.nav-link{
+.nav-link {
 	float: right;
+	display: block;
 	color: #666;
 	text-align: center;
 	padding: 14px 16px;
@@ -48,14 +53,50 @@ body{
 	color: #333;
 }
 
-
-
-	
-	
+.content {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-	.slide-3 {
-	background-image: url("featured-image.jpg");
-	}
+
+.feature-image {
+	margin-bottom: 30px;
+}
+
+.feature-image img {
+	max-width: 100%;
+}
+
+.programmes, .recette {
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.cta-button {
+	background-color: #ff7f50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.cta-button:hover {
+	background-color: #ff6347;
+}
 
 .footer {
 	background-color: #f2f2f2;
