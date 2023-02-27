@@ -1,126 +1,156 @@
-.cards{
+
+body{background-color: #EAF4D3;
+}
+
+
+.content{
+	width: 1400px;
+	margin: auto;
+	
+
+
+}
+.container_last{
 	display: flex;
-	margin: 2rem;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: center;
 
 
+}
+
+.container_all{
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: center;
 }
 
 .card{
-	/*display: flex;
-	margin: 2rem;
-	background-color: #5B9279;
-	max-width: 350px;
-	width: auto;
-    height: auto;
-	border-radius: 10px;
-	position: absolute;
-    top: 50%; left: 50%;
-	transform: translate(-50%, -50%); 
- flex-wrap: wrap;*/
-
+	
  	background-color: #5B9279;
     border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    height: 400px;
+	flex-wrap: wrap;
+	margin: 2rem;
+	height: 400px;
+    position: relative;
 
 }
 
 
-/*.image{
-
-	position: relative;
-	max-width: 350px;
-	width: auto;
-    height: auto;
-	
-	
-  
-	
-	
-	margin: 20px;
-    padding: 150px 0px 150px 0px;
-	border-radius: 10px;
+.image{
+	background-position: center;
+  	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+    height:70%;
 	opacity: 1;
+}
+
+#citron{
+	background-image: url(citron.jpg);
 	
-
-}*/
-
-.image_verre{
-	background-image: url(verre.jpg);
-	background-color: black;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-radius: 10px 10px 0 0;
-	width: 100%;
-    height:70%;
-
 }
     
-.image_nouilles{
+#nouilles{
 	background-image: url(nouilles.jpg);
-	background-color: black;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-radius: 10px 10px 0 0;
-	width: 100%;
-    height:70%;
-
 }
 
-.image_plate{
+#plate{
 	background-image: url(plate.jpg);
-	background-color: black;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-radius: 10px 10px 0 0;
-	width: 100%;
-    height:70%;
-
 }
 
-    
-    
-.overlay {
+#juice{
+	background-image: url(juice.jpg);
+}
+#pancake{
+	background-image: url(pancake.jpg);
+}
+
+#eggs{
+	background-image: url(eggs.jpg);
+}
+
+.overlay{
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 100%;
-	width: 310px;
-	margin: auto;
+	height: 70%;
+	width: 100%;
+	
 	opacity: 0;
 	transition: .3s ease;
 	background-color:hsl(0, 0%, 0%);
-	border-radius: 10px;
+	border-radius: 10px 10px 0 0;
 	cursor: pointer;
 
-	
-	
   }
 
-.overlay:hover {
+.overlay:hover{
 	opacity: 0.3;
-	background-image: url(images/icon-view.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40px;
-    
+ 
   }
 
+.card:hover{
+	box-shadow: 2px 2px 7px hsl(257, 9%, 15%);
+  }
 
-.text {
+.text{
     width: 310px;
     margin:20px;
     font-family: 'Outfit', sans-serif;
+	cursor: pointer;
 }
 
 
-.footer {
+.footer{
 	background-color: #f2f2f2;
 	padding: 20px;
 	border-radius: 5px;
 	margin: 20px ; 
+}
+
+a:link{
+    color: hsl(0, 0%, 0%);;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: hsl(257, 9%, 15%);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+  
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 375px){
+	.card{
+		width: 90%;
+		margin-top: auto;
+	}
+
+	.image{
+		width: 100%;
+		height: 200px;
+		border-radius: 0 0 10px 10px;
+		
+	}
+
+	.text{
+		width: 100%;
+		border-radius: 0 0 10px 10px;
+	}
 }
