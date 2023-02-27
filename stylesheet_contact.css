@@ -1,11 +1,12 @@
 @charset "utf-8";
 
 .banner{
-    background-image: linear-gradient(hsla(0, 0%, 0%, 0.5),hsla(0,0,0,0.5)), url(images_contact/contact_banner.jpg);
+    background-image: linear-gradient( hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)), url(images_contact/contact_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 15rem;
+    margin-bottom: 3rem;
 }
 
 p{
@@ -14,7 +15,7 @@ p{
 
 h1{
     text-align: center;
-    color: #333333;
+    color: #ffffff;
 }
 
 .cards{
