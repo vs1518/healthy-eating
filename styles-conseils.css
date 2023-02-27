@@ -176,7 +176,7 @@
 	box-shadow: 2px 2px 7px hsl(257, 9%, 15%);
   }
 
-.text{
+.text .text_blog{
     width: 310px;
     margin:20px;
     font-family: 'Outfit', sans-serif;
@@ -207,6 +207,29 @@ a:hover{
     text-decoration: underline;
 }
 
+
+.card_blog{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.image_blog{
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+}
+
+.text_blog{
+    width: 40%;
+    background-color: #FFF;
+    border-radius: 0 20px 20px 0;
+    padding: 5%;
+}
 
 
 
