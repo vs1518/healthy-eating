@@ -190,7 +190,7 @@ body{
 		
 		.image_detox{
 			background-color: black;
-			background-image: url(images_programmes/Programmes_detox.jpg);
+			background-image: url(images_programme/Programmes_detox.jpg);
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 100%;
@@ -201,7 +201,7 @@ body{
 		
 		.image_keto{
 			background-color: black;
-			background-image: url(images_programmes/Programmes_keto.jpg);
+			background-image: url(images_programme/Programmes_keto.jpg);
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 100%;
@@ -212,7 +212,7 @@ body{
 		
 		.image_carnivore{
 			background-color: black;
-			background-image: url(images_programmes/Programmes_carnivore.jpg);
+			background-image: url(images_programme/Programmes_carnivore.jpg);
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 100%;
