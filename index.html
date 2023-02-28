@@ -6,32 +6,104 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Healthy-Eating 2</title>
 	<link rel="stylesheet" href="styles.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="logo.png">
+	
 </head>
 <body>
 	<div class="container">
 		<header class="logo">
-			<img src="logo.jpg" alt="Photo of logo">
+			<img src="logo.png" alt="Photo of logo">
 		</header>
 
 		<nav class="navigation">
 			<a href="#" class="nav-link">Programmes</a>
 			<a href="#" class="nav-link">Recettes</a>
-			<a href="#" class="nav-link">Conseilles</a>
+			<a href="#" class="nav-link">Conseils</a>
 			<a href="#" class="nav-link">Contact</a>
 			<a href="#" class="nav-link">Blog</a>
 			<a href="#" class="nav-link"><img src="Profil.png" alt="Profil"></a>
 			<a href="#" class="nav-link"><img src="loupe.png" alt="Loupe"></a>
 		</nav>
-		<main class="content">
-			<div class="future image">
-				<img src="features-image.png" alt="feature-image">
-			</div>
+		<main>
+			<!-- slideshow images -->
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  
+				  <img src="plat(5).jpg" style="width:100%">
+				  <div class="text">Caption Text</div>
+				</div>
+				
+				<div class="mySlides fade">
+				  
+				  <img src="plat (2).jpg" style="width:100%">
+				  <div class="text">Caption Two</div>
+				</div>
+				
+				<div class="mySlides fade">
+					
+					<img src="plat(4).jpg" style="width:100%">
+					<div class="text">Caption Three</div>
+				  </div>
+				
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+				
+				</div>
+				<br>
+				
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+				
+				<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+				
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+				
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+				
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+					  slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+					  dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+				</script>
+				
+			
 		</main>
 		<footer class="footer">
+			<div class="container">
+				<h2>S'abonner</h2>
+				<p>Oui ! Je souhaite recevoir des offres exclusives, des idées de nutrition uniques et des astuces personnalisées pour une alimentation saine.</p>
+			</div>
 
+			<div class="container" style="background-color:white">
+				<input type="text" placeholder="Name" name="name" required>
+				<input type="text" placeholder="Email address" name="mail" required>
+			</div>
+
+			<div class="container">
+				<input type="submit" value="S'abonner">
+			</div>
+			<div class=cont></div>
 		</footer>
 	</div>
 </body>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
 body{
 	margin: 0;
 	padding: 0;
@@ -7,14 +9,19 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	
 }
 
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
+	font-family: 'Noto Serif', serif;
+	background-color: #fff;
 }
 
+
+/* logo-heart */
 .logo img{
 	float: left;
 	width: 50px;
@@ -22,88 +29,159 @@ body{
 
 }
 
-.logo img {
-	transform: scale(0.8);
-}
-
+/* buttons on the right side */
 .navigation {
     display: flex;
     justify-content: flex-end;
-	background-color: #f2f2f2;
+	background-color: #ffffff;
 	overflow: hidden;
 	border-radius: 5px;
 	margin-bottom: 20px;
+	color: #6a9f62;
 }
 
+
+/* buttons on the right side */
 .nav-link {
 	float: right;
 	display: block;
-	color: #666;
+	color: #6a9f62;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-weight: bold;
 }
 
+/* profil et loupe */
 .nav-link img{
 	float: left;
 	width: 20px;
 	height: 20px;
 }
 
+/* profil et loupe */
 .nav-link:hover {
 	background-color: #ddd;
-	color: #333;
+	color: #13be03;
 }
 
-.content {
-	background-color: #fff;
-	padding: 20px;
-	border-radius: 5px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+/* slideshow images */
+		* {box-sizing: border-box}
 
-.feature-image {
-	margin-bottom: 30px;
-}
+		/* Hide the images by default */
+		.mySlides {
+			display: none;
+			max-height: 300px;
+   			overflow: hidden;
+			   
+		}
+		img {vertical-align: middle;}
 
-.feature-image img {
-	max-width: 100%;
-}
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 1250px;
+		  position: relative;
+		  margin: auto;
+			background-image: linear-gradient( hsla(141, 75%, 28%, 0.5), rgb(255, 255, 255));
+		}
 
-.programmes, .recette {
-	margin-bottom: 50px;
-}
+		/* slideshow images */
+		/* Next & previous buttons */
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  width: auto;
+		  padding: 16px;
+		  margin-top: -22px;
+		  color: rgb(33, 123, 75);
+		  font-weight: bold;
+		  font-size: 18px;
+		  transition: 0.6s ease;
+		  border-radius: 0 3px 3px 0;
+		}
 
-h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
 
-p {
-	font-size: 18px;
-	line-height: 1.5;
-	margin-bottom: 30px;
-}
+		/* slideshow images */
+		/* Position the "next button" to the right */
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
 
-.cta-button {
-	background-color: #ff7f50;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	font-size: 18px;
-	font-weight: bold;
-	cursor: pointer;
-}
 
-.cta-button:hover {
-	background-color: #ff6347;
-}
+		/* slideshow images */
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		  background-color: rgba(0,0,0,0.8);
+		}
+		
+
+		/* slideshow images */
+		/* Caption text */
+		.text {
+		  color: #f2f2f2;
+		  font-size: 15px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  bottom: 8px;
+		  width: 100%;
+		  text-align: center;
+		}
+		
+		/* slideshow images */
+		/* The dots/bullets/indicators */
+		.dot {
+		  cursor: pointer;
+		  height: 15px;
+		  width: 15px;
+		  margin: 0 2px;
+		  background-color: #bbbbbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+
+		/* slideshow images */
+		.active, .dot:hover {
+		  background-color: #717171;
+		}
+		
+		/* slideshow images */
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 1.5s;
+		  animation-name: fade;
+		  animation-duration: 1.5s;
+		}
+
+		/* slideshow images */
+		@-webkit-keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		/* slideshow images */
+		@keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+
+		/* slideshow images */
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		 .cpntainer .prev, .next,.text {font-size: 11px}
+		}
+
+
 
 .footer {
 	background-color: #f2f2f2;
-	padding: 20px;
-	border-radius: 5px;
-	margin: 20px ; 
+	padding: 0px;
+	border-radius: 10px;
+	margin: 0px ; 
+	color: #6a9f62;
+	
+
 }
