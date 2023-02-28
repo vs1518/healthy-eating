@@ -1,5 +1,5 @@
 
-/*body{background-color: #EAF4D3;
+body{background-color: #EAF4D3;
 }
 
 
@@ -7,8 +7,25 @@
 	width: 1400px;
 	margin: auto;
 
-}*/
+}
 
+
+.banner{
+    background-image: /*linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.8)),*/ url(images/vegi.jpg);
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+}
+
+.description_banner{
+    padding-right: 20rem;
+    line-height: 1.7rem;
+	font-family: ;
+	color: #FFFF;
+	font-size: 2rem;
+}
 
 #wrap{
 	width: 408px; 
@@ -28,7 +45,7 @@
 
 	.navbar li{
 	height: auto;
-	width: 135.8px; 
+	width: 135.6px; 
 	float: left;  
 	text-align: center; 
 	list-style: none;  
@@ -45,6 +62,8 @@
 	text-decoration: none; 
 	color: rgb(92, 45, 158); 
 	display: block;
+	border-radius: 3px;
+
 	}
 	.navbar li:hover, a:hover {
 	background-color: #444444;
@@ -96,6 +115,7 @@
     display: flex;
 	flex-wrap: wrap;
 	margin: 2rem;
+	width: 300px;
 	height: 400px;
     position: relative;
 
@@ -114,37 +134,37 @@
 }
 
 #citron{
-	background-image: url(citron.jpg);
+	background-image: url(images/citron.jpg);
 	
 }
     
 #nouilles{
-	background-image: url(nouilles.jpg);
+	background-image: url(images/nouilles.jpg);
 }
 
 #plate{
-	background-image: url(plate.jpg);
+	background-image: url(images/plate.jpg);
 }
 
 #juice{
-	background-image: url(juice.jpg);
+	background-image: url(images/juice.jpg);
 }
 #pancake{
-	background-image: url(pancake.jpg);
+	background-image: url(images/pancake.jpg);
 }
 
 #eggs{
-	background-image: url(eggs.jpg);
+	background-image: url(images/eggs.jpg);
 }
 #fish{
-	background-image: url(fish.jpg);
+	background-image: url(images/fish.jpg);
 }
 #pasta{
-	background-image: url(pasta.jpg);
+	background-image: url(images/pasta.jpg);
 }
 
 #ginger{
-	background-image: url(ginger.jpg);
+	background-image: url(images/ginger.jpg);
 }
 
 .overlay{
@@ -181,6 +201,8 @@
     margin:20px;
     font-family: 'Outfit', sans-serif;
 	cursor: pointer;
+
+	
 }
 
 
@@ -209,27 +231,31 @@ a:hover{
 
 
 .card_blog{
+	background-color: #FFF;
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
+    width: 700px;
+	height: 400px;
     margin: auto;
     margin-top: 100px;
+	border-radius: 10px 10px 10px 10px;
 }
 
 .image_blog{
-    background-image: url("images/image-product-desktop.jpg");
+    background-image: url("images/legums.jpg");
     background-size: cover;
     background-position: center;
-    width: 50%;
-    border-radius: 20px 0 0 20px;
+    width: 60%;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .text_blog{
-    width: 40%;
-    background-color: #FFF;
+    width: 30%;
+    
     border-radius: 0 20px 20px 0;
     padding: 5%;
 }
+
 
 
 
