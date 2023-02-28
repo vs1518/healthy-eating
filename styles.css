@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
 body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Inter', sans-serif;
-	background-color: #ffffff;
+	background-color: #E9F0E5;
+	background-color: #E9F0E5;
+	background-image: url(images_index/background-healthy-eating.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
 }
 
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
+	font-family: 'Noto Serif', serif;
+	background-color: #fff;
 }
 
 
@@ -28,13 +38,15 @@ body{
 	overflow: hidden;
 	border-radius: 5px;
 	margin-bottom: 20px;
-	color: #4c7f44;
+	color: #6a9f62;
 }
 
+
+/* buttons on the right side */
 .nav-link {
 	float: right;
 	display: block;
-	color: #4c7f44;
+	color: #6a9f62;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -48,24 +60,33 @@ body{
 	height: 20px;
 }
 
+/* profil et loupe */
 .nav-link:hover {
 	background-color: #ddd;
-	color: #333;
+	color: #13be03;
 }
 
-
+/* slideshow images */
 		* {box-sizing: border-box}
-		body {font-family: 'Inter', sans-serif; margin:0}
-		.mySlides {display: none}
+
+		/* Hide the images by default */
+		.mySlides {
+			display: none;
+			max-height: 370px;
+   			overflow: hidden;
+			   
+		}
 		img {vertical-align: middle;}
 
 		/* Slideshow container */
 		.slideshow-container {
-		  max-width: 1000px;
+		  max-width: 1250px;
 		  position: relative;
 		  margin: auto;
+		   nbackground-image: linear-gradient( hsla(141, 75%, 28%, 0.5), rgb(255, 255, 255));
 		}
 
+		/* slideshow images */
 		/* Next & previous buttons */
 		.prev, .next {
 		  cursor: pointer;
@@ -74,24 +95,30 @@ body{
 		  width: auto;
 		  padding: 16px;
 		  margin-top: -22px;
-		  color: white;
+		  color: rgb(33, 123, 75);
 		  font-weight: bold;
 		  font-size: 18px;
 		  transition: 0.6s ease;
 		  border-radius: 0 3px 3px 0;
 		}
 
+
+		/* slideshow images */
 		/* Position the "next button" to the right */
 		.next {
 		  right: 0;
 		  border-radius: 3px 0 0 3px;
 		}
 
+
+		/* slideshow images */
 		/* On hover, add a black background color with a little bit see-through */
 		.prev:hover, .next:hover {
 		  background-color: rgba(0,0,0,0.8);
 		}
+		
 
+		/* slideshow images */
 		/* Caption text */
 		.text {
 		  color: #f2f2f2;
@@ -103,6 +130,8 @@ body{
 		  text-align: center;
 		}
 
+
+		/* slideshow images */
 		/* Number text (1/3 etc) */
 		.numbertext {
 		  color: #f2f2f2;
@@ -111,23 +140,26 @@ body{
 		  position: absolute;
 		  top: 0;
 		}
-
+		
+		/* slideshow images */
 		/* The dots/bullets/indicators */
 		.dot {
 		  cursor: pointer;
 		  height: 15px;
 		  width: 15px;
 		  margin: 0 2px;
-		  background-color: #bbb;
+		  background-color: #bbbbbb;
 		  border-radius: 50%;
 		  display: inline-block;
 		  transition: background-color 0.6s ease;
 		}
 
+		/* slideshow images */
 		.active, .dot:hover {
 		  background-color: #717171;
 		}
-
+		
+		/* slideshow images */
 		/* Fading animation */
 		.fade {
 		  -webkit-animation-name: fade;
@@ -136,16 +168,19 @@ body{
 		  animation-duration: 1.5s;
 		}
 
+		/* slideshow images */
 		@-webkit-keyframes fade {
 		  from {opacity: .4} 
 		  to {opacity: 1}
 		}
 
+		/* slideshow images */
 		@keyframes fade {
 		  from {opacity: .4} 
 		  to {opacity: 1}
 		}
 
+		/* slideshow images */
 		/* On smaller screens, decrease text size */
 		@media only screen and (max-width: 300px) {
 		  .prev, .next,.text {font-size: 11px}
@@ -153,11 +188,11 @@ body{
 
 
 
-
-
 .footer {
 	background-color: #f2f2f2;
 	padding: 20px;
 	border-radius: 5px;
-	margin: 20px ; 
+	margin: 0px ; 
+	color: #6a9f62;
+
 }
