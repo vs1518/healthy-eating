@@ -82,7 +82,7 @@ body{
 		  max-width: 1250px;
 		  position: relative;
 		  margin: auto;
-		   nbackground-image: linear-gradient( hsla(141, 75%, 28%, 0.5), rgb(255, 255, 255));
+			background-image: linear-gradient( hsla(141, 75%, 28%, 0.5), rgb(255, 255, 255));
 		}
 
 		/* slideshow images */
