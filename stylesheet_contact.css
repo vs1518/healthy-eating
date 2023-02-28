@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;600&display=swap');
 
+/*image haut de page avec le filtre dégradé blanc*/
 .banner{
     background-image: linear-gradient( hsla(0, 0%, 100%, 0.1), hsla(0, 0%, 100%, 1)), url(images_contact/contact_banner.jpg);
     background-repeat: no-repeat;
@@ -12,6 +13,7 @@
     margin-bottom: 3rem;
 }
 
+/*mise en forme des textes*/
 p{
     color: #5B9279;
     font-family: "inter";
@@ -37,28 +39,19 @@ h2{
     color: #333333;
 }
 
+/*trait entre les sections*/
 hr{
     margin: 1rem;
     border: 1.5px solid#333333;
 }
 
-.card_telephone{
+.card_telephone, .card_mail, .card_social{
     text-align: center;
     padding: 2rem;
 }
 
-.logo_telephone{
+.logo_telephone, .logo_mail, .logo_social{
     color: #333333;
-    font-size: xx-large;
-}
-
-.card_mail{
-    text-align: center;
-    padding: 2rem;
-}
-
-.logo_mail{
-    color:#333333;
     font-size: xx-large;
 }
 
@@ -66,27 +59,6 @@ hr{
     text-decoration: underline;
 }
 
-.mail:hover{
-    text-decoration: none;
-    color:#6cd66c;
-    cursor: pointer;
-}
-
-.telephone:hover{
-    text-decoration: none;
-    color:#6cd66c;
-    cursor: pointer;
-}
-
-.card_social{
-    text-align: center;
-    padding: 2rem;
-}
-
-.logo_social{
-    color:#333333;
-    font-size: xx-large;
-}
 
 .logo_socials{
     display: flex;
@@ -94,23 +66,14 @@ hr{
     gap:  2rem;
 }
 
-.facebook:hover{
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+
+.mail:hover, .telephone:hover{
+    text-decoration: none;
+    color:#6cd66c;
     cursor: pointer;
-    color: #6cd66c;
 }
 
-.instagram:hover{
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    cursor: pointer;
-    color: #6cd66c;
-}
-
-.twitter:hover{
+.facebook:hover, .instagram:hover, .twitter:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
