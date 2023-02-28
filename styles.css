@@ -71,7 +71,7 @@ body{
 		/* Hide the images by default */
 		.mySlides {
 			display: none;
-			max-height: 300px;
+			max-height: 350px;
    			overflow: hidden;
 			   
 		}
@@ -117,17 +117,6 @@ body{
 		}
 		
 
-		/* slideshow images */
-		/* Caption text */
-		.text {
-		  color: #f2f2f2;
-		  font-size: 15px;
-		  padding: 8px 12px;
-		  position: absolute;
-		  bottom: 8px;
-		  width: 100%;
-		  text-align: center;
-		}
 		
 		/* slideshow images */
 		/* The dots/bullets/indicators */
@@ -174,8 +163,110 @@ body{
 		 .cpntainer .prev, .next,.text {font-size: 11px}
 		}
 
+		.bienvenue {
+		  color: #4e7948;
+		  font-size: 15px;		
+		  bottom: 8px;
+		  width: 80%;
+		  text-align: center;
+		  margin: auto;
+		}
 
-
+		/* 3 cards */
+		.cards{
+			display: flex;
+			margin: 2rem;
+		}
+		
+		.card{
+			background-color: #6a9f62;
+			border-radius: 10px;
+			display: flex;
+			flex-wrap: wrap;
+			margin: 2rem;
+			height: 500px;
+			box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+		}
+		
+		.image_detox{
+			background-color: black;
+			background-image: url(images_programmes/Programmes_detox.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			height:70%;
+			border-radius: 10px 10px 0 0;
+			background-position: center;
+		}
+		
+		.image_keto{
+			background-color: black;
+			background-image: url(images_programmes/Programmes_keto.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			height:70%;
+			border-radius: 10px 10px 0 0;
+			background-position: center;
+		}
+		
+		.image_carnivore{
+			background-color: black;
+			background-image: url(images_programmes/Programmes_carnivore.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			height:70%;
+			border-radius: 10px 10px 0 0;
+			background-position: center;
+		}
+		
+		.prog_text{
+			padding: 1rem;
+		}
+		
+		h2{
+			margin: 0px;
+			font-family: 'Noto Serif', serif;
+			font-weight: 700;
+		}
+		
+		@media (max-width:500px) {
+			.banner{
+				height: 20%;
+				padding: 1rem;
+			}
+		
+			.description_banner{
+				padding-right: 0;
+			}
+		
+			.cards{
+				flex-wrap: wrap;
+				width: 90%;
+				margin: 0;
+			}
+		
+			.card{
+				margin: 2rem 0 2rem 1.5rem;
+			}
+		}
+		
+		@media (max-width:950px) {
+			.description_banner{
+				padding-right: 5rem;
+			}
+		
+			.cards{
+				flex-wrap: wrap;
+				flex-direction: column;
+			}
+		
+			.text{
+				padding-top: 0;
+			}
+		}
+		
 .footer {
 	background-color: #f2f2f2;
 	padding: 0px;
