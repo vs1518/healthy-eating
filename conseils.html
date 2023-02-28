@@ -18,13 +18,79 @@
 		</header>
 
 		<nav class="navigation">
-			<a href="#" class="nav-link">Programmes</a>
-			<a href="#" class="nav-link">Recettes</a>
-			<a href="#" class="nav-link">Conseilles</a>
-			<a href="#" class="nav-link">Contact</a>
-			<a href="#" class="nav-link">Blog</a>
-			<a href="#" class="nav-link"><img src="images/Profil.png" alt="Profil"></a>
-			<a href="#" class="nav-link"><img src="images/loupe.png" alt="Loupe"></a>
+			<ul class="navbar">
+
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Programmes</a>
+					<ul class="dropdown-content">
+						<li><a href="#">Détox</a></li>
+						<li><a href="#">Sans œufs</a></li>
+						<li><a href="#">Sans lactose</a></li>
+						<li><a href="#">Sans gluten</a></li>
+						<li><a href="#">Sans coque</a></li>
+						<li><a href="#">Sans sucre/diabétique</a></li>
+						<li><a href="#">Sans poisson</a></li>
+						<li><a href="#">Sans viande</a></li>
+						<li><a href="#">Paléo</a></li>
+						<li><a href="#">Cétogène-Kéto</a></li>
+						<li><a href="#">Végétarien</a></li>
+						<li><a href="#">Vegan</a></li>
+						
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Recettes</a>
+					<ul class="dropdown-content">
+						<li><a href="#">Menus de la semaine</a></li>
+						<li><a href="#">Cuisine healthy</a></li>
+						<li><a href="#">Cuisine du monde</a></li>
+						<li><a href="#">Cuisine healthy facile</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Conseilles</a>
+					<ul class="dropdown-content">
+						<li><a href="#">Articles Santé</a></li>
+						<li><a href="#">Actualités</a></li>
+						<li><a href="#">Aliments Santé</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Contact</a>
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Blog</a>
+				</li>
+
+				<a href="#" class="nav-link"><img src="images/Profil.png" alt="Profil"></a>
+
+			
+				<li class="dropdown">
+					<button class="dropbtn"><a href="#" class="nav-link" id="dropbtn"><img src="images/loupe.png" alt="Loupe"></a></button>
+					<ul class="dropdown-content">
+						<li>
+							<div class="search-container">
+
+								<form action="../action_page.php">
+									<input type="text" placeholder="Search.." name="search" >
+							
+							
+									<button type="submit" class="search"><i class="fa fa-search"></i></button>
+								</form>
+							</div>
+						
+						</li>
+				
+					</ul>	
+				</li>
+						
+				
+			</li>
+
 		</nav>
 	</div>
 
@@ -32,7 +98,7 @@
 
 		<div class="banner"> <!-- image d'en-tête-->
 			<h1 class="title_banner">Astuces et conseils healthy</h1>
-			<p class="description_banner">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p class="description_banner">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 		</div>
 
 
@@ -40,26 +106,26 @@
 			
 			<div id="wrap">
 				<ul class="navbar">
-					<li>
-						<a href="#">Santé</a>
-						<ul>
+					<li class="dropdown">
+						<a href="#" class="dropbtn">Santé</a>
+						<ul class="dropdown-content">
 							<li><a href="#">Articles Santé</a></li>
 							<li><a href="#">Actualités</a></li>
 							<li><a href="#">Aliments Santé</a></li>
 						</ul>
 					</li>
-					<li>
-						<a href="#">Sport</a>
-						<ul>
+					<li class="dropdown">
+						<a href="#" class="dropbtn">Sport</a>
+						<ul class="dropdown-content">
 							<li><a href="#" >Au quotidien</a></li>
 							<li><a href="#">Avant l'effort</a></li>
 							<li><a href="#">Pendant l'effort</a></li>
 							<li><a href="#">Récuperation</a></li>
 						</ul>
 					</li>
-					<li>
-						<a href="#">Nutrition</a>
-				  		<ul>
+					<li class="dropdown">
+						<a href="#" class="dropbtn">Nutrition</a>
+				  		<ul class="dropdown-content">
 							<li><a href="#">L'education nutritionnelle</a></li>
 							<li><a href="#">L'éco-score</a></li>
 							<li><a href="#">Nutri-score</a></li>
@@ -199,18 +265,19 @@
 	</main>
 
 	<div class="search"></div>
-	<div class="container">
-		<h2>S'abonner</h2>
+	<div class="subscription">
+		<h3>S'abonner</h3>
 		<p>Oui ! Je souhaite recevoir des offres exclusives, des idées de nutrition uniques et des astuces personnalisées pour une alimentation saine.</p>
-	</div>
 	
-	<div class="container" style="background-color:white">
-		<input type="text" placeholder="Name" name="name" required>
-		<input type="text" placeholder="Email address" name="mail" required>
-	</div>
 	
-	<div class="container">
-		<input type="submit" value="S'abonner">
+		<div class="container">
+			<input type="text" placeholder="Name" name="name" required>
+			<input type="text" placeholder="Email address" name="mail" required>
+		</div>
+	
+		<div class>
+			<input type="submit" value="S'abonner" class="button">
+		</div>
 	</div>
 
 

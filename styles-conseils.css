@@ -1,5 +1,17 @@
+@charset "UTF-8";
 
-body{background-color: #EAF4D3;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+
+body{
+
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+	background-color: #E9F0E5;
+	background-color: #E9F0E5;
+	background-image: url(images/background-healthy-eating.png);
+	background-repeat: no-repeat;
+	background-size:contain;
 }
 
 
@@ -11,29 +23,30 @@ body{background-color: #EAF4D3;
 
 
 .banner{
-    background-image: /*linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.8)),*/ url(images/vegi.jpg);
+    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 1)), url(images/vegi.jpg);
     background-color: rgb(0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3rem;
+	color: #000;
 }
 
 .description_banner{
     padding-right: 20rem;
     line-height: 1.7rem;
-	font-family: ;
-	color: #FFFF;
+	
+	color: #000;
 	font-size: 2rem;
 }
 
-#wrap{
+/*#wrap{
 	width: 408px; 
 	height: 50px; 
 	margin: 0;
 	z-index: 80; 
 	position: relative; 
-	background-color: #bc1ea2;
+	background-color: #FFF;
 	}
 
 	.navbar{
@@ -89,6 +102,82 @@ body{background-color: #EAF4D3;
 	.navbar li ul li a:hover{
 	background-color: #a3a1a1;
 	}
+*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  li {
+	display: inline;
+
+  }
+  li a, .dropbtn {
+	display: inline-block;
+	color: #bce4d2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+  }
+
+  
+  
+  li a:hover, .dropdown:hover .dropbtn {
+	background-color: #FFF;
+  }
+  
+  li.dropdown {
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #bce4d2;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 5px 5px 5px 5px;
+  }
+  
+  .dropdown-content a {
+	color: rgb(37, 49, 41);
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #8cae97;
+	border-radius: 5px 5px 5px 5px;
+
+}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+  .search-container button {
+	float: right;
+
+
+
+	background-image: url(images/loupe.png);
+
+	border:#000;
+	cursor: pointer;
+	width: 20px;
+	height: 22px;
+  }
+  
+  .search-container button:hover {
+	background: #000;
+	
+  }
 
 
 
@@ -115,11 +204,13 @@ body{background-color: #EAF4D3;
     display: flex;
 	flex-wrap: wrap;
 	margin: 2rem;
-	width: 300px;
-	height: 400px;
+
+	height: 500px;
     position: relative;
+	box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
 
 }
+
 
 
 .image{
@@ -178,7 +269,7 @@ body{background-color: #EAF4D3;
 	
 	opacity: 0;
 	transition: .3s ease;
-	background-color:hsl(0, 0%, 0%);
+	background-color:#FFF;
 	border-radius: 10px 10px 0 0;
 	cursor: pointer;
 
@@ -196,7 +287,7 @@ body{background-color: #EAF4D3;
 	box-shadow: 2px 2px 7px hsl(257, 9%, 15%);
   }
 
-.text .text_blog{
+.text{
     width: 310px;
     margin:20px;
     font-family: 'Outfit', sans-serif;
@@ -255,8 +346,22 @@ a:hover{
     border-radius: 0 20px 20px 0;
     padding: 5%;
 }
+.subscription{
+	margin: auto;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left: 200px;
 
 
+}
+.button{
+	border-radius: 3px 3px 3px 3px;
+	font-size: 1.1rem;
+	border-color: gray;
+	background-color:#bce4d2;
+	width: 100px;
+
+
+}
 
 
 nav {
@@ -279,21 +384,38 @@ nav {
 }
     
 
-@media (max-width: 375px){
-	.card{
-		width: 90%;
-		margin-top: auto;
-	}
+@media (max-width:500px) {
+    .banner{
+        height: 20%;
+        padding: 1rem;
+    }
 
-	.image{
-		width: 100%;
-		height: 200px;
-		border-radius: 0 0 10px 10px;
-		
-	}
+    .description_banner{
+        padding-right: 0;
+    }
 
-	.text{
-		width: 100%;
-		border-radius: 0 0 10px 10px;
-	}
+    .cards{
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0;
+    }
+
+    .card{
+        margin: 2rem 0 2rem 1.5rem;
+    }
+}
+
+@media (max-width:950px) {
+    .description_banner{
+        padding-right: 5rem;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .text{
+        padding-top: 0;
+    }
 }
