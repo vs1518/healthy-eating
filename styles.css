@@ -176,6 +176,7 @@ body{
 		.cards{
 			display: flex;
 			margin: 2rem;
+			color: #fff;
 		}
 		
 		.card{
