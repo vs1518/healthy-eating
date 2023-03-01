@@ -199,6 +199,11 @@ body{
 			border-radius: 10px 10px 0 0;
 			background-position: center;
 		}
+
+		.image_detox:hover{
+			background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_detox.jpg);
+			cursor: pointer;
+		}
 		
 		.image_keto{
 			background-color: black;
@@ -210,7 +215,11 @@ body{
 			border-radius: 10px 10px 0 0;
 			background-position: center;
 		}
-		
+
+		.image_keto:hover{
+			background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_keto.jpg);
+			cursor: pointer;
+		}
 		.image_carnivore{
 			background-color: black;
 			background-image: url(images_programme/Programmes_carnivore.jpg);
@@ -221,7 +230,11 @@ body{
 			border-radius: 10px 10px 0 0;
 			background-position: center;
 		}
-		
+
+		.image_carnivore:hover{
+			background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_carnivore.jpg);
+			cursor: pointer;
+		}
 		.prog_text{
 			padding: 1rem;
 		}
@@ -268,12 +281,69 @@ body{
 			}
 		}
 		
-.footer {
-	background-color: #f2f2f2;
-	padding: 0px;
-	border-radius: 10px;
-	margin: 0px ; 
-	color: #6a9f62;
-	
-
-}
+		.footer {
+			background-color: #f2f2f2;
+			padding: 20px;
+			border-radius: 5px;
+			margin: 20px ; 
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		.bottoms{
+			display: flex;
+			gap: 450px;
+			
+			
+			
+		}
+		
+		.reseaux-sociaux{
+			width: 20px;
+			height: 20px;
+			gap: 35px;
+			padding-left: 20px;
+			padding-bottom: 30px;
+			cursor: pointer;
+			
+		}
+		.reseaux-sociaux:hover{
+			-ms-transform: scale(1.5); /* zoomer l'icone*/
+			-webkit-transform: scale(1.5); /* zoomer l'icone*/
+			transform: scale(1.5);
+		}
+		.createuse{
+			background-color: rosybrown;
+			height: 50px;
+			justify-items: center;
+			align-content: center;
+		}
+		.crea{
+			
+			padding-left:500px ;
+			margin-top: 10px;
+		
+		
+		}
+		
+		.bottom{
+			align-content: center;
+			align-items: center;
+		
+		}
+		.mail:hover{
+			color: red;
+			cursor: default;
+		}
+		
+		.recettes-question {
+			display: flex;
+		}
+		
+		
+		
