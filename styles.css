@@ -284,6 +284,88 @@ body{
 
 /*start footer responsive téléphone*/
 @media (max-width:500px){
+	.footer{
+		margin: 0;
+	}
 
+	.recettes-question{
+		flex-direction: column-reverse;
+	}
+
+	.contain{
+		margin-top: 3rem;
+	}
+
+	.bottoms{
+		margin-bottom: 3rem;
+	}
+
+	.row{
+		flex-direction: column;
+	}
+
+	.right{
+		font-size: 10px;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	.copyright-menu{
+		font-size: 10px;
+	}
+
+	.copyright-menu ul{
+		display: flex;
+		margin: 0;
+		padding: 0;
+		justify-content: space-evenly;
+	}
+
+	.copyright-menu li {
+		padding: 0;
+	}
 }
 /*end footer responsive téléphone*/
+
+/*start footer responsive tablette*/
+@media (max-width:950px){
+	.recettes-question{
+		gap:2rem;
+	}
+
+	.bottoms{
+		margin-bottom: 2rem;
+		justify-content: center;
+	}
+
+	.bottoms .contain{
+		display: flex;
+		align-items: baseline;
+		gap: 1rem;
+	}
+
+	.copyright-container{
+		padding: 10px;
+	}
+
+	.right{
+		font-size: 10px;
+		text-align: center;
+	}
+
+	.copyright-menu{
+		font-size: 12px;
+	}
+
+	.copyright-menu ul{
+		display: flex;
+		margin: 0;
+		padding: 0;
+		justify-content: space-evenly;
+	}
+
+	.copyright-menu li {
+		padding: 0;
+	}
+}
+/*end footer responsive tablette*/
