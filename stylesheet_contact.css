@@ -32,6 +32,7 @@ h2{
     font-size: 18px;
 }
 
+/*mise en forme de toutes les cartes*/
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +46,7 @@ hr{
     border: 1.5px solid#333333;
 }
 
+/*mis en forme à l'intérieur des cartes*/
 .card_telephone, .card_mail, .card_social{
     text-align: center;
     padding: 2rem;
@@ -66,7 +68,7 @@ hr{
     gap:  2rem;
 }
 
-
+/*active states*/
 .mail:hover, .telephone:hover{
     text-decoration: none;
     color:#6cd66c;
@@ -81,6 +83,7 @@ hr{
     color: #6cd66c;
 }
 
+/*responsive téléphone et tablette*/
 @media (max-width:500px) {
     .banner{
         height: 20%;
