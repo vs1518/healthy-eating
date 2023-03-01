@@ -180,7 +180,7 @@ body{
 		}
 		
 		.card{
-			background-color: #6a9f62;
+			background-color: #5B9279;
 			border-radius: 10px;
 			display: flex;
 			flex-wrap: wrap;
@@ -281,6 +281,8 @@ body{
 			}
 		}
 		
+	/* start footer */
+
 		.footer {
 			background-color: #f2f2f2;
 			padding: 20px;
@@ -373,3 +375,5 @@ body{
 		  .copyright-menu li {
 			display: inline-block;
 			padding-left: 20px; }
+
+	/* finish footer */
