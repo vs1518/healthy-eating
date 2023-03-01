@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;600&display=swap');
 
-/*image haut de page*/
-.banner{
+.banner{ /*image haut de page*/
     /*filtre dégradé blanc*/
     background-image: linear-gradient( hsla(0, 0%, 100%, 0.1), hsla(0, 0%, 100%, 1)), url(images_contact/contact_banner.jpg);
     background-repeat: no-repeat;
@@ -14,15 +13,13 @@
     margin-bottom: 3rem;
 }
 
-/*mise en forme des textes:*/
-/*coordonnées*/
-p{
+/*mise en forme des textes*/
+p{ /*coordonnées*/
     color: #5B9279;
     font-family: "inter";
 }
 
-/*titre de haut de page*/
-h1{
+h1{ /*titre de haut de page*/
     text-align: center;
     color: #333333;
     padding-top: 6rem;
@@ -31,10 +28,10 @@ h1{
     font-size: 42px;
 }
 
-/*titre de chaque carte*/
-h2{
+h2{ /*titre de chaque carte*/
     font-size: 18px;
 }
+/*fin mise en forme des textes*/
 
 /*mise en forme de toutes les cartes:*/
 .cards{
@@ -74,7 +71,7 @@ hr{
     gap:  2rem;
 }
 
-/*active states:*/
+/*active states*/
 /*pour les effets de liens*/
 .mail:hover, .telephone:hover{
     text-decoration: none;
@@ -90,6 +87,7 @@ hr{
     cursor: pointer;
     color: #6cd66c;
 }
+/*fin active states*/
 
 /*responsive téléphone:*/
 @media (max-width:500px) {
@@ -106,6 +104,7 @@ hr{
         flex-direction: column;
     }
 }
+/*fin responsive téléphone:*/
 
 /*responsive tablette:*/
 @media (max-width:950px) {
@@ -113,3 +112,4 @@ hr{
         flex-direction: column;
     }
 }
+/*fin responsive tablette:*/
