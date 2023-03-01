@@ -3,7 +3,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Noto Serif', serif;
 	background-color: #E9F0E5;
 	background-image: url(images_index/background-healthy-eating.png);
 	background-repeat: no-repeat;
@@ -285,65 +285,91 @@ body{
 			background-color: #f2f2f2;
 			padding: 20px;
 			border-radius: 5px;
-			margin: 20px ; 
-			
-			
-			
-		}
-		
-		
-		
-		
-		
-		.bottoms{
-			display: flex;
-			gap: 450px;
-			
-			
-			
-		}
-		
-		.reseaux-sociaux{
-			width: 20px;
-			height: 20px;
-			gap: 35px;
-			padding-left: 20px;
-			padding-bottom: 30px;
-			cursor: pointer;
-			
-		}
-		.reseaux-sociaux:hover{
-			-ms-transform: scale(1.5); /* zoomer l'icone*/
-			-webkit-transform: scale(1.5); /* zoomer l'icone*/
-			transform: scale(1.5);
-		}
-		.createuse{
-			background-color: rosybrown;
-			height: 50px;
-			justify-items: center;
-			align-content: center;
-		}
-		.crea{
-			
-			padding-left:500px ;
-			margin-top: 10px;
-		
-		
-		}
-		
-		.bottom{
-			align-content: center;
-			align-items: center;
-		
-		}
-		.mail:hover{
-			color: red;
-			cursor: default;
+			margin: 20px ;
+			color:#6a9f62; 
+						
 		}
 		
 		.recettes-question {
 			display: flex;
+			justify-content: space-between;
+			color: #6a9f62;
 		}
 		
+		.menu-simple {
+			padding: 1rem;
+			background: #f2f2f2;
+			display: flex;
+			justify-content: flex-start;
+			color: #4e7948;
+
+		}
 		
+		.fa-brands {
+			margin-left: -10px;
+			margin-right: 60px;
+			color: #6a9f62;
+		}
+		.fa-brands:hover{
+			color: #1c6113;
+		}
+
+		.bottoms{
+			display: flex;
+			gap: 450px;	
+			
+		}
 		
+		.mail:hover{
+			color: #6a9f62;
+			cursor: default;
+		}
+		
+		.newsletter {
+			justify-content: right;
+		}
+
+		.button {
+			border: 1px solid;
+			color: #46733f;
+		}
+
+
+		/* Start copyright line  */
+		.copyright {
+			
+			padding:  0;
+			display: flex;
+			justify-content: space-between}
+			.copyright span,
+			.copyright a {
+			  color: #878787;
+			  -webkit-transition: all 0.3s linear;
+			  -o-transition: all 0.3s linear;
+			  transition: all 0.3s linear; }
+			.copyright a:hover {
+			  color:#52c16f; }
+		  
+			  .copyright-container{
+				width: 100%;
+				margin: 0 auto;
+				padding: 20px;
+				font-family: 'Noto Serif', serif;
+				background-color: #fff;
+			  }
+			  
+			  .row {
+				display: flex;
+				justify-content: space-between;
+		
+			  }
+		  .copyright-menu ul {
+			text-align: right;
+			margin-bottom: 0px;
+			margin-top: 0px; 
+			
+		     	}
+		  
+		  .copyright-menu li {
+			display: inline-block;
+			padding-left: 20px; }
