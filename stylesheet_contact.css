@@ -81,4 +81,23 @@ hr{
     color: #6cd66c;
 }
 
-@media
+@media (max-width:500px) {
+    .banner{
+        height: 20%;
+        padding: 1rem;
+    }
+
+    h1{
+        padding-top: 0;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:950px) {
+    .cards{
+        flex-direction: column;
+    }
+}
