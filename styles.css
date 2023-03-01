@@ -365,6 +365,7 @@ body{
 			  .row {
 				display: flex;
 				justify-content: space-between;
+				align-items: center;
 		
 			  }
 		  .copyright-menu ul {
