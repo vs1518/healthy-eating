@@ -166,6 +166,30 @@ h2:hover{
     text-decoration: underline;
 }
 
+.pages{
+    display: flex;
+    justify-content: center;
+    color: #333333;
+    margin: 3rem;
+}
+        
+.pagination{
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    font-family: bold;
+    font-size: 1,9rem;
+    gap: 2rem;
+    font-family: 'inter';
+}
+
+.page_arrows:hover, .page_numbers:hover{
+    color: ;
+    cursor: pointer;
+}
+
+
 @media (max-width:500px) {
     .banner{
         height: 20%;
