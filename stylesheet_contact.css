@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;600&display=swap');
 
-/*image haut de page avec le filtre dégradé blanc*/
+/*image haut de page*/
 .banner{
+    /*filtre dégradé blanc*/
     background-image: linear-gradient( hsla(0, 0%, 100%, 0.1), hsla(0, 0%, 100%, 1)), url(images_contact/contact_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -13,12 +14,14 @@
     margin-bottom: 3rem;
 }
 
-/*mise en forme des textes*/
+/*mise en forme des textes:*/
+/*coordonnées*/
 p{
     color: #5B9279;
     font-family: "inter";
 }
 
+/*titre de haut de page*/
 h1{
     text-align: center;
     color: #333333;
@@ -28,11 +31,12 @@ h1{
     font-size: 42px;
 }
 
+/*titre de chaque carte*/
 h2{
     font-size: 18px;
 }
 
-/*mise en forme de toutes les cartes*/
+/*mise en forme de toutes les cartes:*/
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -46,35 +50,39 @@ hr{
     border: 1.5px solid#333333;
 }
 
-/*mis en forme à l'intérieur des cartes*/
+/*mis en forme à l'intérieur des cartes:*/
 .card_telephone, .card_mail, .card_social{
     text-align: center;
     padding: 2rem;
 }
 
+/*logo des contact dans chaque carte*/
 .logo_telephone, .logo_mail, .logo_social{
     color: #333333;
     font-size: xx-large;
 }
 
+/*effet de lien sur les coordonnées*/
 .mail, .telephone{
     text-decoration: underline;
 }
 
-
+/*logo des réseaux sociaux*/
 .logo_socials{
     display: flex;
     justify-content: center;
     gap:  2rem;
 }
 
-/*active states*/
+/*active states:*/
+/*pour les effets de liens*/
 .mail:hover, .telephone:hover{
     text-decoration: none;
     color:#6cd66c;
     cursor: pointer;
 }
 
+/*pour les réseaux*/
 .facebook:hover, .instagram:hover, .twitter:hover, .tiktok:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
@@ -83,7 +91,7 @@ hr{
     color: #6cd66c;
 }
 
-/*responsive téléphone et tablette*/
+/*responsive téléphone:*/
 @media (max-width:500px) {
     .banner{
         height: 20%;
@@ -99,6 +107,7 @@ hr{
     }
 }
 
+/*responsive tablette:*/
 @media (max-width:950px) {
     .cards{
         flex-direction: column;
