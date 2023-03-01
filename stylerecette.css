@@ -1,5 +1,7 @@
 /*css documment*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
 
 
 body{
@@ -100,7 +102,11 @@ p {
 .cta-button:hover {
 	background-color: #ff6347;
 }
-
+h1{
+	font-family: "noto";
+	font-weight: 700;
+	font-size: 42px;
+}
 
 .entet{
     background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 1)), url(nadine-primeau--ftWfohtjNw-unsplash.jpg);
@@ -119,23 +125,31 @@ p {
     width: 100%;
     height:70%;
 	border-radius: 10px 10px 0px 0px;
-	cursor: pointer;
 	opacity: 1;
+	background-position: center;
+}
+.image-vegan:hover{
+	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(/calories-counting-diet-food-control-and-weight-loss-concept-calorie-768.jpg);
+	cursor: pointer;
 }
 
 .image-gluten{
-    background-color: black;
     background-image:url(i84521-banana-bread-sans-gluten.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+	background-position: center;
     width: 100%;
     height:70%;
 	border-radius: 10px 10px 0px 0px;
-	cursor: pointer;
 	opacity: 1;
-	
-
+	background-position: center;
 }
+
+.image-gluten:hover{
+	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(i84521-banana-bread-sans-gluten.jpg);
+	cursor: pointer;
+}
+
 .image-lactos{
     background-color: black;
     background-image:url(healthy-food-1.jpg);
@@ -144,55 +158,68 @@ p {
     width: 100%;
     height:70%;
 	border-radius: 10px 10px 0px 0px;
-	cursor: pointer;
 	opacity: 1;
-
+	background-position: center;
 }
-.image-minceur{
-    background-color: black;
+
+.image-lactos:hover{
+	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(/healthy-food-1.jpg);
+	cursor: pointer;
+}
+
+.image-minceur{   
     background-image:url(/pexels-valeria-boltneva-842571.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height:70%;
 	border-radius: 10px 10px 0px 0px;
-	cursor: pointer;
 	opacity: 1;
 	background-position: center;
 }
+.image-minceur:hover{
+	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(/pexels-valeria-boltneva-842571.jpg);
+	cursor: pointer;
+}
 .image-legume{
-    background-color: black;
     background-image:url(/pexels-pixabay-53148.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height:70%;
 	border-radius: 10px 10px 0px 0px;
-	cursor: pointer;
 	opacity: 1;
+	background-position: center;
+}
+.image-legume:hover{
+	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(/pexels-pixabay-53148.jpg);
+	cursor: pointer;
 }
 .image-healthy{
-    background-color: black;
     background-image:url(/pexels-kyle-killam-129605.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height:70%;
 	border-radius: 10px 10px 0px 0px;
-	cursor: pointer;
 	opacity: 1;
 	background-position: center;
 }
-
-
-.categories{
-	display: flex;
-	justify-content: center;	
+.image-healthy:hover{
+	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(/pexels-kyle-killam-129605.jpg);
+	cursor: pointer;
 }
-.categori{
+
+
+#card:hover{
+    box-shadow: 2px 2px 7px hsl(257, 9%, 15%);
+  }
+
+
+.categories,.categori{
 	display: flex;
 	justify-content: center;
-
+	margin: 2rem;	
 }
 
 #card{
@@ -201,30 +228,25 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: 2rem;
-    height: 450px;
-	min-width: 330px;
+    height: 500px;
     box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
-	cursor: pointer;
-	position: relative;
-
 }
 
 
 h4{
+	width: 260px;
 	padding: 20px;
-	cursor: pointer;
-	color: #ddd;
-	
+	color: #fcfafa;
+	text-align: center;	
+	font-family: "noto";
+	font-weight: 700;
+	font-size: 20px;
 }
-a:link{
-    color: hsl(0, 0%, 0%);;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover{
-  
+
+h4:hover{
     background-color: transparent;
     text-decoration: underline;
+	cursor: pointer;
 }
 
 
@@ -234,10 +256,7 @@ a:hover{
 	background-color: #f2f2f2;
 	padding: 20px;
 	border-radius: 5px;
-	margin: 20px ; 
-	
-	
-	
+	margin: 20px ; 	
 }
 
 
@@ -298,7 +317,7 @@ a:hover{
 
 	
 
-.vegan:hover{
+#card:hover{
 	box-shadow: 4px 4px 12px hsl(257, 9%, 15%);
 	opacity: 1;
     background-position: center;
@@ -308,50 +327,40 @@ a:hover{
 	
 	
 }
-.sans-gluten:hover{
-	box-shadow: 4px 4px 12px hsl(257, 9%, 15%);
 
-}
-.sans-lactos:hover{
-	box-shadow: 4px 4px 12px hsl(257, 9%, 15%);
 
-}
+
+
 @media (max-width: 500px){
-	.categories{
-		width: 100%;
-		margin-top: auto;
-		flex-wrap: wrap;
-		margin: 2rem 0 2rem 1.5rem;
+	.categories,.categori{	
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 0;
 	}
+
 	.entet{
 		height: 20%;
         padding: 1rem;
 	}
 
-	.image-vegan{
-		width: 100%;
-		height: 200px;
-		border-radius: 0 0 10px 10px;
-		flex-direction: column;
-		
-	}
-	.image-lactos{
-		width: 100%;
-		height: 200px;
-		border-radius: 0 0 10px 10px;
-		flex-direction: column;
-
-	}
-	.image-gluten{
-		width: 100%;
-		height: 200px;
-		border-radius: 0 0 10px 10px;
-		flex-direction: column;
-
-	}
+	
 
 	.text{
 		width: 100%;
 		border-radius: 0 0 10px 10px;
 	}
+	#card{
+		margin: 2rem 0 2rem 1.5rem;
+	}
+	footer{
+		height: 20;
+		padding: 1rem;
+	}
+
+}
+@media (max-width:950px){
+.categories.categori{
+	flex-wrap: wrap;
+    flex-direction: column;
+}
 }
