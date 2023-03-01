@@ -307,12 +307,12 @@ body{
 
 		}
 		
-		.fa-brands {
+		.menu-simple .fa-brands {
 			margin-left: -10px;
 			margin-right: 60px;
 			color: #6a9f62;
 		}
-		.fa-brands:hover{
+		.menu-simple .fa-brands:hover{
 			color: #1c6113;
 		}
 
@@ -342,13 +342,15 @@ body{
 			
 			padding:  0;
 			display: flex;
-			justify-content: space-between}
+			justify-content: space-between;
+		}
 			.copyright span,
 			.copyright a {
 			  color: #878787;
 			  -webkit-transition: all 0.3s linear;
 			  -o-transition: all 0.3s linear;
-			  transition: all 0.3s linear; }
+			  transition: all 0.3s linear;
+		 }
 			.copyright a:hover {
 			  color:#52c16f; }
 		  
