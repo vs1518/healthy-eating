@@ -172,6 +172,14 @@ h2:hover{
     color: #333333;
     margin: 3rem;
 }
+
+.page_arrows{
+    color: #5B9279;
+}
+
+#page_one{
+    color: #6cd66c;
+}
         
 .pagination{
     list-style: none;
@@ -182,13 +190,16 @@ h2:hover{
     font-size: 1,9rem;
     gap: 2rem;
     font-family: 'inter';
+    align-items: baseline;
 }
 
 .page_arrows:hover, .page_numbers:hover{
-    color: ;
+    color: #6cd66c;
     cursor: pointer;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
-
 
 @media (max-width:500px) {
     .banner{
