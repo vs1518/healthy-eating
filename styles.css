@@ -281,3 +281,9 @@ body{
 	padding-left: 20px; }
 
 /* finish footer */
+
+/*start footer responsive téléphone*/
+@media (max-width:500px){
+
+}
+/*end footer responsive téléphone*/
