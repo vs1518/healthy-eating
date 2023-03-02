@@ -63,6 +63,86 @@ body{
 	color: #13be03;
 }
 
+/*début faux burger dropdown menu*/
+.dropdown_content_1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.list_1 {
+	display: inline;
+    display: inline-block;
+	display: flex;
+	flex-direction: column;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: underline;
+	font-family: 'inter';
+	color: white;
+	background-color: #6a9f62;
+  }
+
+  .list_1:hover{
+	cursor: pointer;
+	background-color: white;
+	color: #6a9f62;
+	text-decoration: none;
+  }
+
+s2 p{
+	height: 7px;
+}
+
+  s2{
+    color: #6a9f62;
+	height: 50px;
+	width: 60px;
+	font-weight: 700;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+    
+s2:hover {
+    background-color: #6a9f62;
+    color: #ffffff;
+	cursor: pointer;
+  }
+
+  .dropbtn_1{
+	height: 50px;
+	display: flex;
+	justify-content: end;
+  }
+
+.list_1.dropdown_1 {
+    display: inline-block;
+  }
+
+.dropdown_content_1 {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+.dropdown_content_1 #a {
+    padding: 12px 16px;
+    display: block;
+  }
+  
+.dropdown_1:hover .dropdown_content_1 {
+    display: block;
+  }
+
+  .dropdown_1{
+	display: none;
+  }
+/*fin faux burger dropdown menu*/
+
 /* slideshow images */
 		* {box-sizing: border-box}
 
@@ -282,8 +362,23 @@ body{
 
 /* finish footer */
 
-/*start footer responsive téléphone*/
+/*start responsive téléphone*/
 @media (max-width:500px){
+/*start header responsive téléphone*/
+	.navigation{
+	display: none;
+	}
+
+	.dropdown_1{
+		display: inline;
+	  }
+
+	.dropdown_content_1 {
+		margin-left: 50%;
+	  }
+/*end header responsive téléphone*/
+
+/*start footer responsive téléphone*/
 	.footer{
 		margin: 0;
 	}
@@ -328,7 +423,21 @@ body{
 /*end footer responsive téléphone*/
 
 /*start footer responsive tablette*/
-@media (max-width:950px){
+@media (max-width:950px) and (min-width:700px){
+	/*start header responsive tablette*/
+	.navigation{
+		display: none;
+		}
+	
+		.dropdown_1{
+			display: inline;
+		  }
+
+		.dropdown_content_1{
+			margin-left: 78%;
+		}
+	/*end header responsive tablette*/
+	
 	.recettes-question{
 		gap:2rem;
 	}
