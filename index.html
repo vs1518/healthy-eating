@@ -18,15 +18,68 @@
 			<div class="logo">  
 				<img src="images_index/logo.png" alt="Photo of logo">	
 			</div>	
-			<nav class="navigation">
-				<a href="#" class="nav-link">Accueil</a>
-				<a href="#" class="nav-link">Programmes</a>
-				<a href="#" class="nav-link">Recettes</a>
-				<a href="#" class="nav-link">Conseils</a>
-				<a href="#" class="nav-link">Contact</a>
-				<a href="#" class="nav-link"><img src="images_index/Profil.png" alt="Profil"></a>
-				<a href="#" class="nav-link"><img src="images_index/loupe.png" alt="Loupe"></a>
+			<nav class="navigation"><!--Navigation avec dropdown menu-->
+				<ul class="navbar">
+					
+					<li class="dropdown"><!--Section Contact-->
+						<a href="#" class="dropbtn">Accueil</a>
+					</li>
+					<li class="dropdown"> <!--Section Programmes avec dropdown menu-->
+						<a href="#" class="dropbtn">Programmes</a>
+						<ul class="dropdown-content">
+							<li><a href="#">Détox</a></li>
+							<li><a href="#">Sans œufs</a></li>
+							<li><a href="#">Sans lactose</a></li>
+							<li><a href="#">Sans gluten</a></li>
+							<li><a href="#">Sans coque</a></li>
+							<li><a href="#">Sans sucre/diabétique</a></li>
+							<li><a href="#">Sans poisson</a></li>
+							<li><a href="#">Sans viande</a></li>
+							<li><a href="#">Paléo</a></li>
+							<li><a href="#">Cétogène-Kéto</a></li>
+							<li><a href="#">Végétarien</a></li>
+							<li><a href="#">Vegan</a></li>
+						</ul>
+					</li>
+	
+					<li class="dropdown"> <!--Section Recettes avec dropdown menu-->
+						<a href="#" class="dropbtn">Recettes</a>
+						<ul class="dropdown-content">
+							<li><a href="#">Menus de la semaine</a></li>
+							<li><a href="#">Cuisine healthy</a></li>
+							<li><a href="#">Cuisine du monde</a></li>
+							<li><a href="#">Cuisine healthy facile</a></li>
+						</ul>
+					</li>
+	
+					<li class="dropdown"><!--Section Conseilles avec dropdown menu-->
+						<a href="#" class="dropbtn">Conseilles</a>
+						<ul class="dropdown-content">
+							<li><a href="#">Articles Santé</a></li>
+							<li><a href="#">Actualités</a></li>
+							<li><a href="#">Aliments Santé</a></li>
+						</ul>
+					</li>
+	
+					<li class="dropdown"><!--Section Contact-->
+						<a href="#" class="dropbtn">Contact</a>
+					</li>
+	
+	
+					<li><!--Section Loupe-->
+					<a href="#" target="_blank" class="nav-link"><img src="images_index/loupe.png" alt="Loupe"></a>
+	
+					</li>
+	
+					<li><!--Section Profil-->
+						<a href="#" target="_blank" class="nav-link"><img src="images_index/Profil.png" alt="Profil"></a>
+					</li>
+						
+					
+				</ul>
+	
 			</nav>
+	
 		</header>
 	 <!-- finish header -->
 		<main>
@@ -138,7 +191,7 @@
 		 	<div class="row1">
 				   <a href="single-project.html">
 						<div class="portfolio-thumb">
-							 <img src="images_index/plat(1).jpg" class="img-responsive" alt="Portfolio">
+							 <img src="images_recettes/1 vegan.jpg" class="img-responsive" alt="Portfolio">
 								  <div class="portfolio-overlay">
 									   <div class="portfolio-item">
 											<h3>Vegan</h3>
@@ -150,7 +203,7 @@
 
 				   <a href="single-project.html">
 						<div class="portfolio-thumb">
-							 <img src="images_index/plat(2).jpg" class="img-responsive" alt="Portfolio">
+							 <img src="images_recettes/2 sans gluten.jpg" class="img-responsive" alt="Portfolio">
 								  <div class="portfolio-overlay">
 									   <div class="portfolio-item">
 											<h3>Sans gluten</h3>
@@ -164,7 +217,7 @@
 			  
 				   <a href="single-project.html">
 						<div class="portfolio-thumb">
-							 <img src="images_index/plat(3).jpg" class="img-responsive" alt="Portfolio">
+							 <img src="images_recettes/3 sans lactose.jpg" class="img-responsive" alt="Portfolio">
 								  <div class="portfolio-overlay">
 									   <div class="portfolio-item">
 											<h3>Sans lactose</h3>
@@ -176,7 +229,7 @@
 
 				   <a href="single-project.html">
 						<div class="portfolio-thumb">
-							 <img src="images_index/plat(2).jpg"class="img-responsive" alt="Portfolio">
+							 <img src="images_recettes/4 recette minceur.jpg"class="img-responsive" alt="Portfolio">
 								  <div class="portfolio-overlay">
 									   <div class="portfolio-item">
 											<h3>Recettes minceur</h3>
@@ -187,7 +240,7 @@
 
 				   <a href="single-project.html">
 						<div class="portfolio-thumb">
-							 <img src="images_index/plat(1).jpg" class="img-responsive" alt="Portfolio">
+							 <img src="images_recettes/5 recette healthy de legume.jpg" class="img-responsive" alt="Portfolio">
 								  <div class="portfolio-overlay">
 									   <div class="portfolio-item">
 											<h3>Recettes healthy de légumes</h3>
@@ -198,7 +251,7 @@
 
 				   <a href="single-project.html">
 						<div class="portfolio-thumb">
-							 <img src="images_index/plat(3).jpg" class="img-responsive" alt="Portfolio">
+							 <img src="images_recettes/6 recette-healthy.jpg 	" class="img-responsive" alt="Portfolio">
 								  <div class="portfolio-overlay">
 									   <div class="portfolio-item">
 											<h3>Recettes health</h3>
@@ -349,20 +402,19 @@
 							<span>Copyright © 2023 All Right Reserved NutriTeam</span>
 						</div>
 						<!-- End Col -->
-						
-							<div class="copyright-menu">
-								<ul>
-									<li>
-										<a href="#">Mention legal</a>
-									</li>
-									<li>
-										<a href="#">Terms</a>
-									</li>
-									<li>
-										<a href="#">Privacy Policy</a>
-									</li>
-								</ul>
-							</div>
+						<!-- End Col -->
+
+						<div class="copyright-menu">
+							
+							<ul id="copyright-menu">
+								<li>
+									<a href="#">Mention legal</a></li>
+								<li>
+									<a href="#">Terms</a></li>
+								<li>
+									<a href="#">Privacy Policy</a></li>
+							</ul>
+
 							<!-- end copyright-menu -->
 					
 					</div>
