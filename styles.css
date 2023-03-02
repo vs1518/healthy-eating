@@ -52,6 +52,7 @@ body{
 
 /* navigation drop  */
 /*CSS pour Dropdown menu*/
+/*CSS pour Dropdown menu start*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -67,11 +68,16 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	color: #6a9f62;
+    
+  }
+
+  li a, .dropdown .dropbtn{
+    color: #6a9f62;
+
   }
     
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #ccd4c8;
+    background-color: #FFF;
     color: #13be03;
   }
   
@@ -94,18 +100,18 @@ li.dropdown {
   
 .dropdown-content a {
     
+
     padding: 12px 16px;
-    text-decoration: none;
+    
     display: block;
     text-align: left;
     color: #6a9f62;
   }
   
 .dropdown-content a:hover {
-    background-color:#ccd4c8;
-    
+    background-color:#FFF;
     border-radius: 5px 5px 5px 5px;
-
+    text-decoration: underline;
 }
   
 .dropdown:hover .dropdown-content {
@@ -113,16 +119,6 @@ li.dropdown {
   }
 
 
-/* buttons on the right side */
-.nav-link {
-	float: right;
-	display: block;
-	color: #6a9f62;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-weight: bold;
-}
 /* profil et loupe */
 .nav-link img{
     float: left;
@@ -132,9 +128,10 @@ li.dropdown {
 
 /* profil et loupe */
 .nav-link:hover {
-	background-color: #ddd;
-	color: #13be03;
-}
+    background-color: #FFF;
+
+}/*dropdown menu end*/
+
 
 /* slideshow images */
 		* {box-sizing: border-box}
@@ -446,7 +443,7 @@ li.dropdown {
 	/*     margin-left: -7%; */
 		display: block;
 		margin-left: 1px; 
-		z-index: 3;	
+			
 	}
 	.chat-box-overlay_robot {
 		margin-left: -3px; 
@@ -459,8 +456,8 @@ li.dropdown {
 	
 	.chat-box-welcome__company-name,
 	.chat-box__sign {
-		font-family: 'Roboto', 'Helvetica Neue', "Arial", sans-serif;
-		position: relative;
+	font-family: 'Noto Serif', serif;
+	position: relative;
 	}
 	
 	
@@ -495,11 +492,7 @@ li.dropdown {
 	.chat-box-welcome__header,
 	.chat-box-header,
 	.chat-msg.bot>.msg-avatar {
-		/*red*/
-		/*background-image: linear-gradient( to top right, rgba(246, 72, 72, 1), rgba(250, 65, 95, 1));*/
-		/*pink-blue*/
-		/*background-image: linear-gradient( to top left, rgba(252, 123, 123, 1), rgba(166, 193, 255, 1));*/
-		/*pink-red*/
+		
 		background-image: linear-gradient( to bottom right, rgb(58, 165, 114), rgb(181, 201, 157) );
 	}
 	
@@ -509,12 +502,6 @@ li.dropdown {
 	.spiner > *  {
 		background: rgb(37, 57, 44);
 	}
-	
-	/*.options-btn:hover{
-	   background-image: linear-gradient( to bottom right, rgba(240, 149, 255, 1), rgba(246, 72, 72, 1));
-		
-		color: white;
-	}*/
 	
 	/* ---------- chat-bot-button to open chat---------- */
 	
@@ -603,9 +590,7 @@ li.dropdown {
 	}
 	
 	
-	/*#chat-box-welcome__ava .material-icons {
-		font-size: 64px;
-	}*/
+	
 	
 	.chat-box-welcome_robot {
 		height: 75px;
@@ -677,7 +662,7 @@ li.dropdown {
 	}
 	
 	.chat-box-body:after {
-		content: "";
+		
 		background-color: #F8F8F8;
 		opacity: 0.1;
 		top: 0;
@@ -763,11 +748,10 @@ li.dropdown {
 	}
 	
 	
-	
-	*/
-	
+	/* robot in the chat box during messaging */
 	.chat-box-overlay_robot {
 		height: 35px;
+		width: 35px;
 		position: absolute;
 		top: 5px;
 	}
@@ -824,7 +808,7 @@ li.dropdown {
 	
 	.cm-msg-button {
 		clear: both;
-		margin-bottom: 70px;
+		margin-bottom: 80px;
 	}
 	
 	
