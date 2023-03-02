@@ -1012,7 +1012,7 @@ li.dropdown {
 	/*start footer responsive téléphone*/
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-	.cpntainer .prev, .next,.text {font-size: 11px}
+	.container .prev, .next,.text {font-size: 11px}
 	}
 
 
