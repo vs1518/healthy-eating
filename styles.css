@@ -3,8 +3,10 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Inter', sans-serif;
-	background-color: #E9F0E5;
+	font-family: 'Noto Serif', serif;
+	background-color: #fff;
+	font-family: 'Noto Serif', serif;
+	background-color: #fff;
 	background-image: url(images_index/background-healthy-eating.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -13,10 +15,32 @@ body{
 
 .container {
 	max-width: 1200px;
-	margin: 0 auto;
-	padding: 20px;
+	margin: 0px auto;
+	padding-top: 90px;
+	margin: 0px auto;
+	padding-top: 90px;
 	font-family: 'Noto Serif', serif;
 	background-color: #fff;
+}
+
+/* header fixed on the top */
+	header{
+	position: fixed;
+	top: 0;
+	width: 1200px;
+	padding-left: 10px;
+	z-index: 1;
+
+}
+
+/* header fixed on the top */
+	header{
+	position: fixed;
+	top: 0;
+	width: 1200px;
+	padding-left: 10px;
+	z-index: 1;
+
 }
 
 
@@ -33,8 +57,27 @@ body{
     justify-content: flex-end;
 	background-color: #ffffff;
 	overflow: hidden;
-	border-radius: 5px;
 	margin-bottom: 20px;
+	color: #3c6845;
+}
+
+/* navigation drop  */
+/*CSS pour Dropdown menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    display: inline;
+
+  }
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 	color: #6a9f62;
 }
 
@@ -49,17 +92,16 @@ body{
 	text-decoration: none;
 	font-weight: bold;
 }
-
 /* profil et loupe */
 .nav-link img{
-	float: left;
-	width: 20px;
-	height: 20px;
+    float: left;
+    width: 20px;
+    height: 20px;
 }
 
 /* profil et loupe */
 .nav-link:hover {
-	background-color: #ddd;
+	background-color: #fff	;
 	color: #13be03;
 }
 
@@ -152,17 +194,18 @@ body{
 		/* Hide the images by default */
 		.mySlides {
 			display: none;
-			max-height: 370px;
+			max-height: 350px;
    			overflow: hidden;
-			   
 		}
+
+
 		img {vertical-align: middle;}
 
 		/* Slideshow container */
 		.slideshow-container {
 		  max-width: 1250px;
 		  position: relative;
-		  margin: auto;
+		  margin: 10px;
 			background-image: linear-gradient( hsla(141, 75%, 28%, 0.5), rgb(255, 255, 255));
 		}
 
@@ -198,28 +241,6 @@ body{
 		}
 		
 
-		/* slideshow images */
-		/* Caption text */
-		.text {
-		  color: #f2f2f2;
-		  font-size: 15px;
-		  padding: 8px 12px;
-		  position: absolute;
-		  bottom: 8px;
-		  width: 100%;
-		  text-align: center;
-		}
-
-
-		/* slideshow images */
-		/* Number text (1/3 etc) */
-		.numbertext {
-		  color: #f2f2f2;
-		  font-size: 12px;
-		  padding: 8px 12px;
-		  position: absolute;
-		  top: 0;
-		}
 		
 		/* slideshow images */
 		/* The dots/bullets/indicators */
@@ -236,7 +257,7 @@ body{
 
 		/* slideshow images */
 		.active, .dot:hover {
-		  background-color: #717171;
+		  background-color: #fff;
 		}
 		
 		/* slideshow images */
