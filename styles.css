@@ -70,8 +70,9 @@ li a, .dropbtn {
   }
     
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #ccd4c8;
+    background-color: #fff;
     color: #13be03;
+	text-decoration: underline;
   }
   
 li.dropdown {
@@ -101,7 +102,7 @@ li.dropdown {
   }
   
 .dropdown-content a:hover {
-    background-color:#ccd4c8;
+   
     
     border-radius: 5px 5px 5px 5px;
 
@@ -131,11 +132,12 @@ li.dropdown {
 
 /* profil et loupe */
 .nav-link:hover {
-	background-color: #ddd;
+	background-color: #fff	;
 	color: #13be03;
 }
 
 /*dropdown menu end*/
+
 
 
 /* start slideshow images */
@@ -207,7 +209,7 @@ li.dropdown {
 
 		/* slideshow images */
 		.active, .dot:hover {
-		  background-color: #717171;
+		  background-color: #fff;
 		}
 		
 		/* slideshow images */
@@ -324,16 +326,14 @@ li.dropdown {
 		.row1 {
 			display: flex;
 			flex-wrap: wrap;
-			padding: 0 30px 0 30px;
-			justify-content: space-between;
+			justify-content: space-evenly;
+
 		}
 	/* size of the 6 images */
 	.img-responsive{
-	width: 360px;
-	height: 320px;
+	height: 100%;
 	position: relative;
 }
-
 
 
   /* shadow slide */
@@ -347,6 +347,9 @@ li.dropdown {
 	margin-top: 32px;
 	overflow: hidden;
 	align-items: center;
+	width: 360px;
+    height: 320px;
+	
   }
 /* shadow slide */
   #portfolio .portfolio-thumb .portfolio-overlay {
@@ -442,7 +445,7 @@ li.dropdown {
   
 			  
   
-		/*start 23. JavaScript */
+		/*start JavaScript */
 		/* ----------- CHATBOT STYLE--------- */
 .chat-circle_robot {
 	/*     margin-left: -7%; */
@@ -514,7 +517,7 @@ li.dropdown {
 		position: fixed;
 		bottom: 50px;
 		/*right: 50px;*/
-		right: 50px;
+		right: 20px;
 		width: 80px;
 		height: 80px;
 		border-radius: 50%;
@@ -1004,12 +1007,12 @@ li.dropdown {
 	.container .prev, .next,.text {font-size: 11px}
 	}
 
-
 @media (max-width:500px){
+
+
 	.slideshow-container{
 		display: flex;
 			flex-wrap: wrap;	
-
 	}
 
 	.banner{
@@ -1031,9 +1034,12 @@ li.dropdown {
 		margin: 2rem 0 2rem 1.5rem;
 	}
 
-	.chat-logs {
-			height: 40vh;
-		}
+	.row1{
+	    flex-wrap: wrap;
+		flex-direction: column;
+		align-content: space-around;
+	
+	}
 	
 	.footer{
 		margin: 0;
@@ -1042,10 +1048,6 @@ li.dropdown {
 	.recettes-question{
 		flex-direction: column-reverse;
 	}
-
-	.chat-circle_robot {
-	z-index: 3;
-}
 
 
 	.img-responsive {
@@ -1089,7 +1091,9 @@ li.dropdown {
 	
 
 /*start footer responsive tablette*/
-@media (max-width:950px){
+@media (max-width:1240px){
+
+
 	.description_banner{
 		padding-right: 5rem;
 	}
@@ -1099,12 +1103,27 @@ li.dropdown {
 		flex-direction: column;
 	}
 
+	.row1{
+	     flex-wrap: wrap;
+		flex-direction: column;
+		align-content: space-around;
+	}
+
 	.text{
 		padding-top: 0;
 	}
 
 	.recettes-question{
 		gap:2rem;
+	}
+
+	.chat-circle {
+		display: flex;
+		justify-self: end;
+	}
+	
+	.chat-logs {
+			height: 40vh;
 	}
 
 	.bottoms{
@@ -1141,4 +1160,7 @@ li.dropdown {
 	.copyright-menu li {
 		padding: 0;
 	}
+}
+	.footer{
+	margin: 0;
 }
