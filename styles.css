@@ -448,10 +448,12 @@ li.dropdown {
 		z-index: 3;	
 	}
 	.chat-box-overlay_robot {
-		margin-left: -3px; 
+		margin-left: -3px;
+		width: 35px; 
 	}
 	.chat-box-welcome_robot {
 		margin-left: -10px;
+		
 	}
 	
 	/* ---------- GENERAL STYLE---------- */
@@ -827,6 +829,7 @@ li.dropdown {
 	}
 	
 	
+
 	/*loader*/
 	
 	
