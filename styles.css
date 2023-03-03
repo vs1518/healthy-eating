@@ -5,6 +5,8 @@ body{
 	padding: 0;
 	font-family: 'Noto Serif', serif;
 	background-color: #fff;
+	font-family: 'Noto Serif', serif;
+	background-color: #fff;
 	background-image: url(images_index/background-healthy-eating.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -15,8 +17,20 @@ body{
 	max-width: 1200px;
 	margin: 0px auto;
 	padding-top: 90px;
+	margin: 0px auto;
+	padding-top: 90px;
 	font-family: 'Noto Serif', serif;
 	background-color: #fff;
+}
+
+/* header fixed on the top */
+	header{
+	position: fixed;
+	top: 0;
+	width: 1200px;
+	padding-left: 10px;
+	z-index: 1;
+
 }
 
 /* header fixed on the top */
@@ -67,50 +81,7 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
 	color: #6a9f62;
-  }
-    
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #fff;
-    color: #13be03;
-	text-decoration: underline;
-  }
-  
-li.dropdown {
-    display: inline-block;
-    color: #6a9f62;
-  }
-  
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:#FFF;
-    color: #6a9f62;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 5px 5px 5px 5px;
-  }
-  
-.dropdown-content a {
-    
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    color: #6a9f62;
-  }
-  
-.dropdown-content a:hover {
-   
-    
-    border-radius: 5px 5px 5px 5px;
-
 }
-  
-.dropdown:hover .dropdown-content {
-    display: block;
-  }
 
 
 /* buttons on the right side */
@@ -385,6 +356,11 @@ li.dropdown {
 			height:70%;
 			border-radius: 10px 10px 0 0;
 			background-position: center;
+		}
+
+		.image_carnivore:hover{
+			background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_carnivore.jpg);
+			cursor: pointer;
 		}
 
 		.image_carnivore:hover{
