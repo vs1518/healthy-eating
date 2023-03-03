@@ -222,7 +222,7 @@ h2:hover{
     }
 }
 
-@media (max-width:950px) {
+@media (max-width:950px) and (min-width:700px){
     .description_banner{
         padding-right: 5rem;
     }

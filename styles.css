@@ -64,6 +64,10 @@ body{
 }
 
 /*début faux burger dropdown menu*/
+.dropdown_1 > .nav-link{
+	float: left;
+}
+
 .dropdown_content_1 {
     list-style-type: none;
     margin: 0;
