@@ -1187,7 +1187,19 @@ li.dropdown {
 	
 
 /*start footer responsive tablette*/
-@media (max-width:950px){
+@media (max-width:950px) and (min-width:700px){
+	/*start header responsive tablette*/
+	.navigation{
+		display: none;
+		}
+	
+		.dropdown_1{
+			display: inline;
+		  }
+
+		.dropdown_content_1{
+			margin-left: 78%;
+		}
 	.description_banner{
 		padding-right: 5rem;
 	}
