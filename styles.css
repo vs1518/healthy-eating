@@ -469,6 +469,8 @@ li.dropdown {
 	}
 	.chat-box-overlay_robot {
 		margin-left: -3px; 
+		
+		width: 35px;
 	}
 	.chat-box-welcome_robot {
 		margin-left: -10px;
