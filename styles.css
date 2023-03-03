@@ -822,17 +822,27 @@ body{
 /*start responsive téléphone*/
 @media (max-width:500px){
 /*start header responsive téléphone*/
-	.navigation{
+.container{
+	padding-top: 50px;
+}
+
+.navigation{
 	display: none;
 	}
 
-	.dropdown_1{
-		display: inline;
-	  }
-
-	.dropdown_content_1 {
-		margin-left: 50%;
-	  }
+	header{
+		width: 100%;
+	}
+		
+.dropdown_1{
+	display: flex;
+	justify-content: flex-end;
+    align-items: center;
+	}
+		
+.dropdown_content_1 {
+	margin-left: 50%;
+	}
 /*end header responsive téléphone*/
 
 /*start footer responsive téléphone*/
@@ -882,14 +892,24 @@ body{
 /*start footer responsive tablette*/
 @media (max-width:950px) and (min-width:700px){
 	/*start header responsive tablette*/
+	.container{
+		padding-top: 50px;
+	}
+	
 	.navigation{
 		display: none;
 		}
 	
-		.dropdown_1{
-			display: inline;
-		  }
-
+		header{
+			width: 100%;
+		}
+			
+	.dropdown_1{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		}
+	
 		.dropdown_content_1{
 			margin-left: 78%;
 		}
