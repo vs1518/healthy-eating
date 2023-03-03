@@ -135,7 +135,10 @@ li.dropdown {
 	color: #13be03;
 }
 
-/* slideshow images */
+/*dropdown menu end*/
+
+
+/* start slideshow images */
 		* {box-sizing: border-box}
 
 		/* Hide the images by default */
@@ -439,13 +442,13 @@ li.dropdown {
   
 			  
   
-		/*start button JavaScript */
+		/*start 23. JavaScript */
 		/* ----------- CHATBOT STYLE--------- */
 .chat-circle_robot {
 	/*     margin-left: -7%; */
 		display: block;
 		margin-left: 1px; 
-		z-index: 3;	
+			
 	}
 	.chat-box-overlay_robot {
 		margin-left: -3px;
@@ -460,8 +463,8 @@ li.dropdown {
 	
 	.chat-box-welcome__company-name,
 	.chat-box__sign {
-		font-family: 'Roboto', 'Helvetica Neue', "Arial", sans-serif;
-		position: relative;
+	font-family: 'Noto Serif', serif;
+	position: relative;
 	}
 	
 	
@@ -496,11 +499,7 @@ li.dropdown {
 	.chat-box-welcome__header,
 	.chat-box-header,
 	.chat-msg.bot>.msg-avatar {
-		/*red*/
-		/*background-image: linear-gradient( to top right, rgba(246, 72, 72, 1), rgba(250, 65, 95, 1));*/
-		/*pink-blue*/
-		/*background-image: linear-gradient( to top left, rgba(252, 123, 123, 1), rgba(166, 193, 255, 1));*/
-		/*pink-red*/
+		
 		background-image: linear-gradient( to bottom right, rgb(58, 165, 114), rgb(181, 201, 157) );
 	}
 	
@@ -510,12 +509,6 @@ li.dropdown {
 	.spiner > *  {
 		background: rgb(37, 57, 44);
 	}
-	
-	/*.options-btn:hover{
-	   background-image: linear-gradient( to bottom right, rgba(240, 149, 255, 1), rgba(246, 72, 72, 1));
-		
-		color: white;
-	}*/
 	
 	/* ---------- chat-bot-button to open chat---------- */
 	
@@ -604,9 +597,7 @@ li.dropdown {
 	}
 	
 	
-	/*#chat-box-welcome__ava .material-icons {
-		font-size: 64px;
-	}*/
+	
 	
 	.chat-box-welcome_robot {
 		height: 75px;
@@ -678,7 +669,7 @@ li.dropdown {
 	}
 	
 	.chat-box-body:after {
-		content: "";
+		
 		background-color: #F8F8F8;
 		opacity: 0.1;
 		top: 0;
@@ -764,11 +755,10 @@ li.dropdown {
 	}
 	
 	
-	
-	*/
-	
+	/* robot in the chat box during messaging */
 	.chat-box-overlay_robot {
 		height: 35px;
+		width: 35px;
 		position: absolute;
 		top: 5px;
 	}
@@ -825,7 +815,7 @@ li.dropdown {
 	
 	.cm-msg-button {
 		clear: both;
-		margin-bottom: 70px;
+		margin-bottom: 80px;
 	}
 	
 	
