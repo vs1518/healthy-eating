@@ -1092,6 +1092,18 @@ li.dropdown {
 
 
 @media (max-width:500px){
+		/*start header responsive téléphone*/
+			.navigation{
+			display: none;
+			}
+		
+			.dropdown_1{
+				display: inline;
+			  }
+		
+			.dropdown_content_1 {
+				margin-left: 50%;
+			  }
 	.slideshow-container{
 		display: flex;
 			flex-wrap: wrap;	
