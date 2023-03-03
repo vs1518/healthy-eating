@@ -211,8 +211,8 @@ li.dropdown {
 
 /* profil et loupe */
 .nav-link:hover {
-	background-color: #ddd;
-	color: #13be03;
+	background-color: #ffffff;
+	
 }
 /*début faux burger dropdown menu*/
 .dropdown_1 > .nav-link{
