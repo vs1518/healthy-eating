@@ -150,9 +150,8 @@ li.dropdown {
 .description_banner{
     padding-right: 20rem;
     line-height: 1.7rem;
-	
 	color: #000;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 
@@ -761,6 +760,13 @@ h4:hover{
 			}
 				/* finish button JavaScript */
 
+
+
+
+
+
+
+
 /* start footer */
 
 .footer {
@@ -849,19 +855,19 @@ h4:hover{
 	.all_right {
 		display: flex;
 		justify-content: space-between;
-		
 
-	  }
+}
+
   .copyright-menu ul {
 	text-align: right;
 	margin-bottom: 0px;
 	margin-top: 0px; 
-	
-		 }
+}
   
   .copyright-menu li {
 	display: inline-block;
-	padding-left: 20px; }
+	padding-left: 20px; 
+}
 
 /* finish footer */
 
