@@ -354,3 +354,19 @@ s2:hover {
 	padding-left: 20px; }
 
 /* finish footer */
+
+@media (max-width:500px){
+	/*start header responsive téléphone*/
+		.navigation{
+		display: none;
+		}
+	
+		.dropdown_1{
+			display: inline;
+		  }
+	
+		.dropdown_content_1 {
+			margin-left: 50%;
+		  }
+	}
+	/*end header responsive téléphone*/
