@@ -817,10 +817,15 @@ h4:hover{
 	justify-content: right;
 }
 
+input {
+	border: none;
+}
+
 .button {
-	border: 1px solid;
+	border: none;
 	color: #46733f;
 }
+
 
 
 /* Start copyright line  */
