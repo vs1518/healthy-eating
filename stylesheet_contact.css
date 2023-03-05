@@ -1,21 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Noto Serif', serif;
 	background-color: #fff;
 	background-image: url(images_index/background-healthy-eating.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .container {
 	max-width: 1200px;
 	margin: 0px auto;
 	padding-top: 90px;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Noto Sans', sans-serif;
 	background-color: #fff;
 }
 
