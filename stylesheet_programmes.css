@@ -149,12 +149,13 @@ h1{
 }
 
 .banner{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 1)), url(images_programmes/Programmes_banner.jpg);
+    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 1)), url(images_programme/Programmes_banner.jpg);
     background-color: rgb(0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3rem;
+    margin: 10px;
 }
 
 .description_banner{
@@ -163,11 +164,12 @@ h1{
     color:#333333;
 }
 
-p{
+.prog_text p{
     text-align: justify;
     margin: 0px;
     line-height: 1.5rem;
     font-family: 'inter';
+    color: #fff;
 }
 
 .cards_1, .cards_2{
@@ -187,7 +189,7 @@ p{
 
 .image_detox{
     background-color: black;
-    background-image: url(images_programmes/Programmes_detox.jpg);
+    background-image: url(images_programme/Programmes_detox.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -197,13 +199,13 @@ p{
 }
 
 .image_detox:hover{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programmes/Programmes_detox.jpg);
+    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_detox.jpg);
     cursor: pointer;
 }
 
 .image_keto{
     background-color: black;
-    background-image: url(images_programmes/Programmes_keto.jpg);
+    background-image: url(images_programme/Programmes_keto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -213,13 +215,13 @@ p{
 }
 
 .image_keto:hover{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programmes/Programmes_keto.jpg);
+    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_keto.jpg);
     cursor: pointer;
 }
 
 .image_carnivore{
     background-color: black;
-    background-image: url(images_programmes/Programmes_carnivore.jpg);
+    background-image: url(images_programme/Programmes_carnivore.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -229,13 +231,13 @@ p{
 }
 
 .image_carnivore:hover{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programmes/Programmes_carnivore.jpg);
+    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_carnivore.jpg);
     cursor: pointer;
 }
 
 .image_pH{
     background-color: black;
-    background-image: url(images_programmes/pH_1.jpg);
+    background-image: url(images_programme/pH_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -245,13 +247,13 @@ p{
 }
 
 .image_pH:hover{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programmes/pH_1.jpg);
+    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/pH_1.jpg);
     cursor: pointer;
 }
 
 .image_lactose{
     background-color: black;
-    background-image: url(images_programmes/lactose_1.jpg);
+    background-image: url(images_programme/lactose_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -261,13 +263,13 @@ p{
 }
 
 .image_lactose:hover{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programmes/lactose_1.jpg);
+    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/lactose_1.jpg);
     cursor: pointer;
 }
 
 .image_gluten{
     background-color: black;
-    background-image: url(images_programmes/gluten_1.jpg);
+    background-image: url(images_programme/gluten_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -277,23 +279,23 @@ p{
 }
 
 .image_gluten:hover{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programmes/gluten_1.jpg);
+    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/gluten_1.jpg);
     cursor: pointer;
 }
 
-.prog_text{
-    padding: 1rem;
-}
 
-h2{
+.prog_text h2{
     margin: 0px;
     font-family: 'Noto Serif', serif;
     font-weight: 700;
+    color: #fff;
+    
 }
 
-h2:hover{
+.prog_text h2:hover{
     cursor: pointer;
     text-decoration: underline;
+    color: #fff;
 }
 
 .pages{

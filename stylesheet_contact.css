@@ -1,16 +1,151 @@
-@charset "utf-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;600&display=swap');
 
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Serif', serif;
+	background-color: #fff;
+	background-image: url(images_index/background-healthy-eating.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0px auto;
+	padding-top: 90px;
+	font-family: 'Noto Serif', serif;
+	background-color: #fff;
+}
+
+/* header fixed on the top */
+	header{
+	position: fixed;
+	top: 0;
+	width: 1200px;
+	padding-left: 10px;
+	z-index: 1;
+
+}
+
+
+/* logo-heart */
+.logo img{
+	float: left;
+	width: 50px;
+	height: 49px;
+	background-color: #fff;
+
+}
+
+/* buttons on the right side */
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+	background-color: #ffffff;
+	overflow: hidden;
+	margin-bottom: 20px;
+	color: #3c6845;
+}
+
+/* navigation drop  */
+/*CSS pour Dropdown menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    display: inline;
+
+  }
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	color: #6a9f62;
+  }
+    
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #fff;
+    color: #13be03;
+	text-decoration: underline;
+  }
+  
+li.dropdown {
+    display: inline-block;
+    color: #6a9f62;
+  }
+  
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#FFF;
+    color: #6a9f62;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+.dropdown-content a {
+    
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #6a9f62;
+  }
+  
+.dropdown-content a:hover {
+   
+    
+    border-radius: 5px 5px 5px 5px;
+
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* buttons on the right side */
+.nav-link {
+	float: right;
+	display: block;
+	color: #6a9f62;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+/* profil et loupe */
+.nav-link img{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+/* profil et loupe */
+.nav-link:hover {
+	background-color: #fff	;
+	color: #13be03;
+}
+
+/*dropdown menu end*/
 .banner{ /*image haut de page*/
     /*filtre dégradé blanc*/
     background-image: linear-gradient( hsla(0, 0%, 100%, 0.1), hsla(0, 0%, 100%, 1)), url(images_contact/contact_banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 15rem;
     margin-bottom: 3rem;
+    margin: 10px;
+    margin-top: -40px;
 }
 
 /*mise en forme des textes*/

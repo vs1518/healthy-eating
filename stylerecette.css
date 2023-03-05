@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nocontentto+Serif:wght@400;700&display=swap');
 
 body{
 	margin: 0;
@@ -50,7 +50,7 @@ body{
 }
 
 /* navigation drop  */
-/*CSS pour Dropdown menu*
+CSS pour Dropdown menu*
 ul {
     list-style-type: none;
     margin: 0;
@@ -303,7 +303,7 @@ s2:hover {
 /* images principal */
 .content {
 	background-color: #fff;
-	padding: 20px;
+	padding: 0px;
 	border-radius: 5px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -352,6 +352,7 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3rem;
+	margin: -10px;
 }
 
 .image-vegan{
@@ -485,24 +486,8 @@ h4:hover{
     text-decoration: underline;
 	cursor: pointer;
 }
-nav {
-    display: flex;
-    justify-content: center;
-}
-        
-.pagination {
-    list-style: none;
-    margin: auto;
-    padding: auto;
-    display: flex;
-    font-family: bold;
-    font-size: 1,9rem;
-}
-        
-.pagination li {
-    margin: 10px;
-    margin-top: 50px;
-}
+ 
+
 
 #card:hover{
 	box-shadow: 4px 4px 12px hsl(257, 9%, 15%);
@@ -511,6 +496,42 @@ nav {
     background-repeat: no-repeat;
     background-size: 50px;	
 }
+
+.pages{
+    display: flex;
+    justify-content: center;
+    color: #333333;
+    margin: 3rem;
+}
+
+.page_arrows{
+    color: #5B9279;
+}
+
+#page_one{
+    color: #6cd66c;
+}
+        
+.pagination{
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    font-family: bold;
+    font-size: 1,9rem;
+    gap: 2rem;
+    font-family: 'inter';
+    align-items: baseline;
+}
+
+.page_arrows:hover, .page_numbers:hover{
+    color: #6cd66c;
+    cursor: pointer;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
 /*start button JavaScript */
 		/* ----------- CHATBOT STYLE--------- */
 		.chat-circle_robot {
@@ -1221,56 +1242,6 @@ h2:hover{
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
-
-body{
-	margin: 0;
-	padding: 0;
-	font-family: 'Noto Serif', serif;
-	background-color: #fff;
-	background-image: url(images_index/background-healthy-eating.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-.container {
-	max-width: 1200px;
-	margin: 0px auto;
-	padding-top: 90px;
-	font-family: 'Noto Serif', serif;
-	background-color: #fff;
-}
-
-/* header fixed on the top */
-	header{
-	position: fixed;
-	top: 0;
-	width: 1200px;
-	padding-left: 10px;
-	z-index: 1;
-
-}
-
-
-/* logo-heart */
-.logo img{
-	float: left;
-	width: 50px;
-	height: 49px;
-	background-color: #fff;
-
-}
-
-/* buttons on the right side */
-.navigation {
-    display: flex;
-    justify-content: flex-end;
-	background-color: #ffffff;
-	overflow: hidden;
-	margin-bottom: 20px;
-	color: #3c6845;
-}
 
 /* navigation drop  */
 /*CSS pour Dropdown menu*
@@ -1714,16 +1685,18 @@ nav {
 }
         
 .pagination {
-    list-style: none;
+	list-style: none;
     margin: auto;
     padding: auto;
     display: flex;
     font-family: bold;
     font-size: 1,9rem;
+    gap: 2rem;
+    font-family: 'inter';
+    align-items: baseline;
 }
         
 .pagination li {
-    margin: 10px;
     margin-top: 50px;
 }
 

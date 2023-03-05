@@ -22,7 +22,7 @@
 					<ul class="navbar">
 						
 						<li class="dropdown"><!--Section Contact-->
-							<a href="#" class="dropbtn">Accueil</a>
+							<a href="index.html" class="dropbtn">Accueil</a>
 						</li>
 						<li class="dropdown"> <!--Section Programmes avec dropdown menu-->
 							<a href="programmes.html" class="dropbtn">Programmes</a>
@@ -53,7 +53,7 @@
 						</li>
 		
 						<li class="dropdown"><!--Section Conseilles avec dropdown menu-->
-							<a href="#" class="dropbtn">Conseilles</a>
+							<a href="conseils.html" class="dropbtn">Conseilles</a>
 							<ul class="dropdown-content">
 								<li><a href="#">Articles Santé</a></li>
 								<li><a href="#">Actualités</a></li>
@@ -170,17 +170,17 @@
 
 			
 				</div>
-				<nav>
+				<nav class="pages">
 					<ul class="pagination">
-						<li class="disabled"><a href="#">&laquo;</a></li>
-						<li><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">&raquo;</a></li>
-				</ul>	
-				</nav>	
+						<li class="page_arrows"><i class="fa-solid fa-square-caret-left"></i></li>
+						<li class="page_numbers" id="page_one">1</li>
+						<li class="page_numbers">2</li>
+						<li class="page_numbers">3</li>
+						<li class="page_numbers">4</li>
+						<li class="page_numbers">5</li>
+						<li class="page_arrows"><i class="fa-solid fa-square-caret-right"></i></li>
+					</ul>
+				</nav>
 			</section>
 			<!-- finish Portfolio Section -->
 		
@@ -267,78 +267,76 @@
 		<!-- end live-chat -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			
-	<!-- footer -->
-	<footer class="footer">
-		<div class="recettes-question">
-			<div class="contain"> 
-				<h2 class="news">Des questions</h2>
-				<p>À propos Healthy eating</p>
-				<p>Partagez avec nous vos photos et recettes healthy.</p>
-				<div class="social-footer-icons">
-					<div class="menu-simple">
-						<a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-						<a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-						<a href="https://twitter.com/?lang=en"  target="_blank"><i class="fa-brands fa-twitter"></i></a>
-						<a href="https://www.tiktok.com/"  target="_blank"><i class="fa-brands fa-tiktok" ></i></i></a>
-					</div>
-					
-					
-				</div>
-				<br/>
-				</div>
-			<div class="newsletter">
-				<h2 class="news">Newsletter</h2>
-				<input type="text" placeholder="Name" name="name" required>
-				<input type="text" placeholder="Email address" name="mail" required>
-				<input type="submit" value="S'abonner" class="button">
-			
-			</div>
-		</div>
-		<div class="bottoms">
-		<div class="contain">
-			<h2 class="news">Nous contacter</h2>
-			 <p class="mail">hello@healthyeating.fr</p>
-			 </div>
-
-	</div>
-
-	<!--start Copyright -->		 
-		<div class="copyright">
-			<div class="copyright-container">
-				<div class="row">
-					<div class="all right">
-						<span>Copyright © 2023 All Right Reserved NutriTeam</span>
-					</div>
-					<!-- End Col -->
-					
-						<div class="copyright-menu">
-							<ul>
-								<li>
-									<a href="#">Mention legal</a>
-								</li>
-								<li>
-									<a href="#">Terms</a>
-								</li>
-								<li>
-									<a href="#">Privacy Policy</a>
-								</li>
-							</ul>
+			<!-- footer -->
+			<footer class="footer">
+				<div class="recettes-question">
+					<div class="contain"> 
+						<h2 class="news">Des questions</h2>
+						<p>À propos Healthy eating</p>
+						<p>Partagez avec nous vos photos et recettes healthy.</p>
+						<div class="social-footer-icons">
+							<div class="menu-simple">
+								<a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+								<a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+								<a href="https://twitter.com/?lang=en"  target="_blank"><i class="fa-brands fa-twitter"></i></a>
+								<a href="https://www.tiktok.com/"  target="_blank"><i class="fa-brands fa-tiktok" ></i></i></a>
+							</div>
+							
+							
 						</div>
-						<!-- end copyright-menu -->
-				
+						<br/>
+						</div>
+					<div class="newsletter">
+						<h2 class="news">Newsletter</h2>
+						<input type="text" placeholder="Name" name="name" required>
+						<input type="text" placeholder="Email address" name="mail" required>
+						<input type="submit" value="S'abonner" class="button">
+					
+					</div>
 				</div>
-				<!-- End Row -->
+				<div class="bottoms">
+				<div class="contain">
+					<h2 class="news">Nous contacter</h2>
+					<a href="mailto:votreadresse@mail.fr">contact-nutriteam@gmail.com</a>
+					 </div>
+	
 			</div>
-			<!-- End Copyright Container -->
-		</div>
-		<!-- End Copyright -->
-	</footer>
-	<!-- finish footer -->
+	
+			<!--start Copyright -->		 
+				<div class="copyright">
+					<div class="copyright-container">
+						<div class="row">
+							<div class="all_right">
+								<span>Copyright © 2023 All Right Reserved NutriTeam</span>
+							</div>
+							<!-- End Col -->
+							<!-- End Col -->
+	
+							<div class="copyright-menu">
+								
+								<ul id="copyright-menu">
+									<li>
+										<a href="#">Mention legal</a></li>
+									<li>
+										<a href="#">Terms</a></li>
+									<li>
+										<a href="#">Privacy Policy</a></li>
+								</ul>
+	
+								<!-- end copyright-menu -->
+						
+						</div>
+						<!-- End Row -->
+					</div>
+					<!-- End Copyright Container -->
+				</div>
+				<!-- End Copyright -->
+			</footer>
+			<!-- finish footer -->
 		
-
-		</main>	
-		<!-- SCRIPTS -->
-		<script src="index.js"></script>
-	</div>
+			<!-- SCRIPTS -->
+			<script src="index.js"></script>
+			
+		</div>
 </body>
 </html>
