@@ -1091,14 +1091,9 @@ li.dropdown {
 
 	/* finish footer */
 
-	/*start footer responsive téléphone*/
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-	.container .prev, .next,.text {font-size: 11px}
-	}
 
-@media (max-width:500px){
-
+@media screen and (max-width:480px){
 
 		/*start header responsive téléphone*/
 			.navigation{
@@ -1189,11 +1184,24 @@ li.dropdown {
 	.copyright-menu li {
 		padding: 0;
 	}
+	.chat-circle_robot {
+		display: block;
+		margin-left: 1px; 
+			
+	}
+	.chat-box-overlay_robot {
+		margin-left: -3px;
+		width: 35px; 
+	}
+	.chat-box-welcome_robot {
+		margin-left: -10px;
+		
+	}
 }
 	
 
 /*start footer responsive tablette*/
-@media (max-width:1240px) and (min-width:700px){
+@media screen and (min-width: 481px) and (max-width: 1024px) {
 	/*start header responsive tablette*/
 	.navigation{
 		display: none;
@@ -1231,10 +1239,6 @@ li.dropdown {
 		gap:2rem;
 	}
 
-	.chat-circle {
-		display: flex;
-		justify-self: end;
-	}
 	
 	.chat-logs {
 			height: 40vh;
@@ -1274,7 +1278,22 @@ li.dropdown {
 	.copyright-menu li {
 		padding: 0;
 	}
-}
+
 	.footer{
 	margin: 0;
+}
+	.chat-circle_robot {
+		display: block;
+		margin-left: 1px; 
+			
+	}
+	.chat-box-overlay_robot {
+		margin-left: -3px;
+		width: 35px; 
+	}
+	.chat-box-welcome_robot {
+		margin-left: -10px;
+		
+	}
+	
 }

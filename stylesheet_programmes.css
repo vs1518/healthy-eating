@@ -354,7 +354,7 @@ h1{
     }
 }
 
-	/*start JavaScript */
+/*start JavaScript */
 		/* ----------- CHATBOT STYLE--------- */
         .chat-circle_robot {
             /*     margin-left: -7%; */
@@ -810,10 +810,6 @@ h1{
               }
             }
                 /* finish button JavaScript */
-        
-        
-        
-        
             /* start footer */
                 .footer {
                     background-color: #f2f2f2;
@@ -914,7 +910,7 @@ h1{
             /* finish footer */
         
 
-@media (max-width:950px) and (min-width:700px){
+@media (max-width:950px){
     .description_banner{
         padding-right: 5rem;
     }
