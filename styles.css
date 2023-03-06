@@ -1103,6 +1103,7 @@ li.dropdown {
 		
 			.dropdown_1{
 				display: inline;
+				width: 100%;
 			  }
 		
 			.dropdown_content_1 {
@@ -1210,6 +1211,7 @@ li.dropdown {
 	
 		.dropdown_1{
 			display: inline;
+			width: 100%;
 		  }
 
 		.dropdown_content_1{
