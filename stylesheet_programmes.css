@@ -3,22 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;600&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;600&display=swap');
-
 body{
     color:rgb(255, 255, 255);
 }
 
 .content{
     padding: 0;
-}
-
-h1{
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
-    font-size: 42px;
-    color: #333333;
 }
 
 h1{
@@ -41,7 +31,6 @@ h1{
     padding-right: 20rem;
     line-height: 1.7rem;
     color:#333333;
-    color:#333333;
 }
 
 p{
@@ -49,10 +38,8 @@ p{
     margin: 0px;
     line-height: 1.5rem;
     font-family: 'inter';
-    font-family: 'inter';
 }
 
-.cards_1, .cards_2{
 .cards_1, .cards_2{
     display: flex;
     margin: 2rem;
@@ -70,7 +57,7 @@ p{
 
 .image_detox{
     background-color: black;
-    background-image: url(images_programme/Programmes_detox.jpg);
+    background-image: url(images_programmes/Programmes_detox.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -86,7 +73,7 @@ p{
 
 .image_keto{
     background-color: black;
-    background-image: url(images_programme/Programmes_keto.jpg);
+    background-image: url(images_programmes/Programmes_keto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -102,55 +89,7 @@ p{
 
 .image_carnivore{
     background-color: black;
-    background-image: url(images_programme/Programmes_carnivore.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height:70%;
-    border-radius: 10px 10px 0 0;
-    background-position: center;
-}
-
-.image_carnivore:hover{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_carnivore.jpg);
-    cursor: pointer;
-}
-
-.image_pH{
-    background-color: black;
-    background-image: url(images_programme/pH_1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height:70%;
-    border-radius: 10px 10px 0 0;
-    background-position: center;
-}
-
-.image_pH:hover{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/pH_1.jpg);
-    cursor: pointer;
-}
-
-.image_lactose{
-    background-color: black;
-    background-image: url(images_programme/lactose_1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height:70%;
-    border-radius: 10px 10px 0 0;
-    background-position: center;
-}
-
-.image_lactose:hover{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/lactose_1.jpg);
-    cursor: pointer;
-}
-
-.image_gluten{
-    background-color: black;
-    background-image: url(images_programme/gluten_1.jpg);
+    background-image: url(images_programmes/Programmes_carnivore.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -260,48 +199,6 @@ h2:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
-}
-
-h2:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.pages{
-    display: flex;
-    justify-content: center;
-    color: #333333;
-    margin: 3rem;
-}
-
-.page_arrows{
-    color: #5B9279;
-}
-
-#page_one{
-    color: #6cd66c;
-}
-        
-.pagination{
-    list-style: none;
-    margin: auto;
-    padding: auto;
-    display: flex;
-    font-family: bold;
-    font-size: 1,9rem;
-    gap: 2rem;
-    font-family: 'inter';
-    align-items: baseline;
-}
-
-.page_arrows:hover, .page_numbers:hover{
-    color: #6cd66c;
-    cursor: pointer;
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
 }
 
 @media (max-width:500px) {
@@ -315,7 +212,6 @@ h2:hover{
     }
 
     .cards_1, .cards_2{
-    .cards_1, .cards_2{
         flex-wrap: wrap;
         width: 90%;
         margin: 0;
@@ -327,18 +223,15 @@ h2:hover{
 }
 
 @media (max-width:950px) and (min-width:700px){
-@media (max-width:950px) and (min-width:700px){
     .description_banner{
         padding-right: 5rem;
     }
 
     .cards_1, .cards_2{
-    .cards_1, .cards_2{
         flex-wrap: wrap;
         flex-direction: column;
     }
 
-    .prog_text{
     .prog_text{
         padding-top: 0;
     }
