@@ -490,7 +490,7 @@ nav {
     justify-content: center;
 }
         
-.pagination {
+/*.pagination {
     list-style: none;
     margin: auto;
     padding: auto;
@@ -502,8 +502,41 @@ nav {
 .pagination li {
     margin: 10px;
     margin-top: 50px;
+}*/
+.pages{
+    display: flex;
+    justify-content: center;
+    color: #333333;
+    margin: 3rem;
 }
 
+.page_arrows{
+    color: #5B9279;
+}
+
+#page_one{
+    color: #6cd66c;
+}
+        
+.pagination{
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    font-family: bold;
+    font-size: 1,9rem;
+    gap: 2rem;
+    font-family: 'inter';
+    align-items: baseline;
+}
+
+.page_arrows:hover, .page_numbers:hover{
+    color: #6cd66c;
+    cursor: pointer;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
 #card:hover{
 	box-shadow: 4px 4px 12px hsl(257, 9%, 15%);
 	opacity: 1;
