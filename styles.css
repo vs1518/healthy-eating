@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Noto Serif', serif;
 	background-color: #fff;
 	background-image: url(images_index/background-healthy-eating.png);
 	background-repeat: no-repeat;
@@ -15,7 +16,7 @@ body{
 	max-width: 1200px;
 	margin: 0px auto;
 	padding-top: 90px;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Noto Sans', sans-serif;
 	background-color: #fff;
 }
 
@@ -50,86 +51,67 @@ body{
 }
 
 /* navigation drop  */
-/*CSS pour Dropdown menu start*/
+/*CSS pour Dropdown menu*/
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
   
 li {
-	display: inline;
+    display: inline;
 
   }
 li a, .dropbtn {
-	display: inline-block;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	
-  }
-
-  li a, .dropdown .dropbtn{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 	color: #6a9f62;
-
   }
     
 li a:hover, .dropdown:hover .dropbtn {
-	background-color: #FFF;
-	color: #13be03;
+    background-color: #fff;
+    color: #13be03;
+	text-decoration: underline;
   }
   
 li.dropdown {
-	display: inline-block;
-	color: #6a9f62;
+    display: inline-block;
+    color: #6a9f62;
   }
   
 
 .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color:#FFF;
-	color: #6a9f62;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-	border-radius: 5px 5px 5px 5px;
+    display: none;
+    position: absolute;
+    background-color:#FFF;
+    color: #6a9f62;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px 5px 5px 5px;
   }
   
 .dropdown-content a {
-	
-
-	padding: 12px 16px;
-	
-	display: block;
-	text-align: left;
-	color: #6a9f62;
+    
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #6a9f62;
   }
   
 .dropdown-content a:hover {
-	background-color:#FFF;
-	border-radius: 5px 5px 5px 5px;
-	text-decoration: underline;
+   
+    
+    border-radius: 5px 5px 5px 5px;
+
 }
   
 .dropdown:hover .dropdown-content {
-	display: block;
+    display: block;
   }
-
-
-/* profil et loupe */
-.nav-link img{
-	float: left;
-	width: 20px;
-	height: 20px;
-}
-
-/* profil et loupe */
-.nav-link:hover {
-	background-color: #FFF;
-
-}/*dropdown menu finish*/
-
 
 
 /* buttons on the right side */
@@ -151,11 +133,97 @@ li.dropdown {
 
 /* profil et loupe */
 .nav-link:hover {
-	background-color: #ddd;
+	background-color: #fff	;
 	color: #13be03;
 }
 
-/* slideshow images */
+/*dropdown menu end*/
+
+/*début faux burger dropdown menu*/
+.dropdown_1 > .nav-link{
+	float: left;
+}
+
+.dropdown_content_1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.list_1 {
+	display: inline;
+    display: inline-block;
+	display: flex;
+	flex-direction: column;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: underline;
+	font-family: 'inter';
+	color: white;
+	background-color: #6a9f62;
+  }
+
+  .list_1:hover{
+	cursor: pointer;
+	background-color: white;
+	color: #6a9f62;
+	text-decoration: none;
+  }
+
+.s2 p{
+	height: 7px;
+ }
+
+.s2{
+    color: #6a9f62;
+	height: 50px;
+	width: 60px;
+	font-weight: 700;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ }
+    
+.s2:hover {
+    background-color: #6a9f62;
+    color: #ffffff;
+	cursor: pointer;
+  }
+
+.dropbtn_1{
+	height: 50px;
+	display: flex;
+	justify-content: end;
+  }
+
+.list_1.dropdown_1 {
+    display: inline-block;
+  }
+
+.dropdown_content_1 {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+.dropdown_content_1 #a {
+    padding: 12px 16px;
+    display: block;
+  }
+  
+.dropdown_1:hover .dropdown_content_1 {
+    display: block;
+  }
+
+.dropdown_1{
+	display: none;
+  }
+/*fin faux burger dropdown menu*/
+
+/* start slideshow images */
 		* {box-sizing: border-box}
 
 		/* Hide the images by default */
@@ -173,7 +241,7 @@ li.dropdown {
 		  max-width: 1250px;
 		  position: relative;
 		  margin: 10px;
-			background-image: linear-gradient( hsla(141, 75%, 28%, 0.5), rgb(255, 255, 255));
+		  background-image: linear-gradient( hsla(141, 75%, 28%, 0.5), rgb(255, 255, 255));
 		}
 
 		/* slideshow images */
@@ -224,7 +292,7 @@ li.dropdown {
 
 		/* slideshow images */
 		.active, .dot:hover {
-		  background-color: #717171;
+		  background-color: #fff;
 		}
 		
 		/* slideshow images */
@@ -323,6 +391,11 @@ li.dropdown {
 			background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_carnivore.jpg);
 			cursor: pointer;
 		}
+
+		.image_carnivore:hover{
+			background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_carnivore.jpg);
+			cursor: pointer;
+		}
 		.prog_text{
 			padding: 1rem;
 		}
@@ -341,16 +414,14 @@ li.dropdown {
 		.row1 {
 			display: flex;
 			flex-wrap: wrap;
-			padding: 0 30px 0 30px;
-			justify-content: space-between;
+			justify-content: space-evenly;
+
 		}
 	/* size of the 6 images */
 	.img-responsive{
-	width: 360px;
-	height: 320px;
+	height: 100%;
 	position: relative;
 }
-
 
 
   /* shadow slide */
@@ -364,6 +435,9 @@ li.dropdown {
 	margin-top: 32px;
 	overflow: hidden;
 	align-items: center;
+	width: 360px;
+    height: 320px;
+	
   }
 /* shadow slide */
   #portfolio .portfolio-thumb .portfolio-overlay {
@@ -459,29 +533,29 @@ li.dropdown {
   
 			  
   
-		/*start button JavaScript */
+		/*start JavaScript */
 		/* ----------- CHATBOT STYLE--------- */
 .chat-circle_robot {
 	/*     margin-left: -7%; */
 		display: block;
 		margin-left: 1px; 
-		z-index: 3;	
+			
 	}
 	.chat-box-overlay_robot {
-		margin-left: -3px; 
-		
-		width: 35px;
+		margin-left: -3px;
+		width: 35px; 
 	}
 	.chat-box-welcome_robot {
 		margin-left: -10px;
+		
 	}
 	
 	/* ---------- GENERAL STYLE---------- */
 	
 	.chat-box-welcome__company-name,
 	.chat-box__sign {
-		font-family: 'Roboto', 'Helvetica Neue', "Arial", sans-serif;
-		position: relative;
+	font-family: 'Noto Serif', serif;
+	position: relative;
 	}
 	
 	
@@ -516,11 +590,7 @@ li.dropdown {
 	.chat-box-welcome__header,
 	.chat-box-header,
 	.chat-msg.bot>.msg-avatar {
-		/*red*/
-		/*background-image: linear-gradient( to top right, rgba(246, 72, 72, 1), rgba(250, 65, 95, 1));*/
-		/*pink-blue*/
-		/*background-image: linear-gradient( to top left, rgba(252, 123, 123, 1), rgba(166, 193, 255, 1));*/
-		/*pink-red*/
+		
 		background-image: linear-gradient( to bottom right, rgb(58, 165, 114), rgb(181, 201, 157) );
 	}
 	
@@ -531,19 +601,13 @@ li.dropdown {
 		background: rgb(37, 57, 44);
 	}
 	
-	/*.options-btn:hover{
-	   background-image: linear-gradient( to bottom right, rgba(240, 149, 255, 1), rgba(246, 72, 72, 1));
-		
-		color: white;
-	}*/
-	
 	/* ---------- chat-bot-button to open chat---------- */
 	
 	#chat-circle {
 		position: fixed;
 		bottom: 50px;
 		/*right: 50px;*/
-		right: 50px;
+		right: 20px;
 		width: 80px;
 		height: 80px;
 		border-radius: 50%;
@@ -624,9 +688,7 @@ li.dropdown {
 	}
 	
 	
-	/*#chat-box-welcome__ava .material-icons {
-		font-size: 64px;
-	}*/
+	
 	
 	.chat-box-welcome_robot {
 		height: 75px;
@@ -698,7 +760,7 @@ li.dropdown {
 	}
 	
 	.chat-box-body:after {
-		content: "";
+		
 		background-color: #F8F8F8;
 		opacity: 0.1;
 		top: 0;
@@ -784,11 +846,10 @@ li.dropdown {
 	}
 	
 	
-	
-	*/
-	
+	/* robot in the chat box during messaging */
 	.chat-box-overlay_robot {
 		height: 35px;
+		width: 35px;
 		position: absolute;
 		top: 5px;
 	}
@@ -845,10 +906,11 @@ li.dropdown {
 	
 	.cm-msg-button {
 		clear: both;
-		margin-bottom: 70px;
+		margin-bottom: 80px;
 	}
 	
 	
+
 	/*loader*/
 	
 	
@@ -1030,18 +1092,25 @@ li.dropdown {
 
 	/* finish footer */
 
-	/*start footer responsive téléphone*/
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-	.container .prev, .next,.text {font-size: 11px}
-	}
 
+@media screen and (max-width:480px){
 
-@media (max-width:500px){
+		/*start header responsive téléphone*/
+			.navigation{
+			display: none;
+			}
+		
+			.dropdown_1{
+				display: inline;
+			  }
+		
+			.dropdown_content_1 {
+				margin-left: 50%;
+			  }
 	.slideshow-container{
 		display: flex;
 			flex-wrap: wrap;	
-
 	}
 
 	.banner{
@@ -1063,9 +1132,12 @@ li.dropdown {
 		margin: 2rem 0 2rem 1.5rem;
 	}
 
-	.chat-logs {
-			height: 40vh;
-		}
+	.row1{
+	    flex-wrap: wrap;
+		flex-direction: column;
+		align-content: space-around;
+	
+	}
 	
 	.footer{
 		margin: 0;
@@ -1074,10 +1146,6 @@ li.dropdown {
 	.recettes-question{
 		flex-direction: column-reverse;
 	}
-
-	.chat-circle_robot {
-	z-index: 3;
-}
 
 
 	.img-responsive {
@@ -1117,11 +1185,38 @@ li.dropdown {
 	.copyright-menu li {
 		padding: 0;
 	}
+	.chat-circle_robot {
+		display: block;
+		margin-left: 1px; 
+			
+	}
+	.chat-box-overlay_robot {
+		margin-left: -3px;
+		width: 35px; 
+	}
+	.chat-box-welcome_robot {
+		margin-left: -10px;
+		
+	}
 }
 	
 
 /*start footer responsive tablette*/
-@media (max-width:950px){
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+	/*start header responsive tablette*/
+	.navigation{
+		display: none;
+		}
+	
+		.dropdown_1{
+			display: inline;
+		  }
+
+		.dropdown_content_1{
+			margin-left: 78%;
+		}
+
+
 	.description_banner{
 		padding-right: 5rem;
 	}
@@ -1131,12 +1226,23 @@ li.dropdown {
 		flex-direction: column;
 	}
 
+	.row1{
+	     flex-wrap: wrap;
+		flex-direction: column;
+		align-content: space-around;
+	}
+
 	.text{
 		padding-top: 0;
 	}
 
 	.recettes-question{
 		gap:2rem;
+	}
+
+	
+	.chat-logs {
+			height: 40vh;
 	}
 
 	.bottoms{
@@ -1173,4 +1279,22 @@ li.dropdown {
 	.copyright-menu li {
 		padding: 0;
 	}
+
+	.footer{
+	margin: 0;
+}
+	.chat-circle_robot {
+		display: block;
+		margin-left: 1px; 
+			
+	}
+	.chat-box-overlay_robot {
+		margin-left: -3px;
+		width: 35px; 
+	}
+	.chat-box-welcome_robot {
+		margin-left: -10px;
+		
+	}
+	
 }

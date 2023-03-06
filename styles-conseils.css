@@ -1,12 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Noto Serif', serif;
 	background-color: #fff;
 	background-image: url(images_index/background-healthy-eating.png);
 	background-repeat: no-repeat;
@@ -18,7 +16,7 @@ body{
 	max-width: 1200px;
 	margin: 0px auto;
 	padding-top: 90px;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Noto Sans', sans-serif;
 	background-color: #fff;
 }
 
@@ -130,12 +128,12 @@ li.dropdown {
 
 .banner{
     background-image: linear-gradient( hsla(0, 0%, 100%, 0.0), hsla(0, 0%, 100%, 1)), url(images_index/fruit_legum.jpg);
-    background-color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3rem;
-	margin: 20px;
+	margin: 10px;
 
 }
 
@@ -791,10 +789,15 @@ h4:hover{
 	justify-content: right;
 }
 
+input {
+	border: none;
+}
+
 .button {
-	border: 1px solid;
+	border: none;
 	color: #46733f;
 }
+
 
 
 /* Start copyright line  */
