@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Noto Serif', serif;
 	background-color: #fff;
 	background-image: url(images_index/background-healthy-eating.png);
 	background-repeat: no-repeat;
@@ -15,7 +16,7 @@ body{
 	max-width: 1200px;
 	margin: 0px auto;
 	padding-top: 90px;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Noto Sans', sans-serif;
 	background-color: #fff;
 }
 
@@ -74,8 +75,9 @@ li a, .dropbtn {
   }
     
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #ccd4c8;
+    background-color: #fff;
     color: #13be03;
+	text-decoration: underline;
   }
   
 li.dropdown {
@@ -105,7 +107,7 @@ li.dropdown {
   }
   
 .dropdown-content a:hover {
-    background-color:#ccd4c8;
+   
     
     border-radius: 5px 5px 5px 5px;
 
@@ -135,7 +137,7 @@ li.dropdown {
 
 /* profil et loupe */
 .nav-link:hover {
-	background-color: #ddd;
+	background-color: #fff	;
 	color: #13be03;
 }
 
@@ -250,7 +252,7 @@ li.dropdown {
 		  max-width: 1250px;
 		  position: relative;
 		  margin: 10px;
-			background-image: linear-gradient( hsla(141, 75%, 28%, 0.5), rgb(255, 255, 255));
+		  background-image: linear-gradient( hsla(141, 75%, 28%, 0.5), rgb(255, 255, 255));
 		}
 
 		/* slideshow images */
@@ -301,7 +303,7 @@ li.dropdown {
 
 		/* slideshow images */
 		.active, .dot:hover {
-		  background-color: #717171;
+		  background-color: #fff;
 		}
 		
 		/* slideshow images */
@@ -400,6 +402,11 @@ li.dropdown {
 			background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_carnivore.jpg);
 			cursor: pointer;
 		}
+
+		.image_carnivore:hover{
+			background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5)), url(images_programme/Programmes_carnivore.jpg);
+			cursor: pointer;
+		}
 		.prog_text{
 			padding: 1rem;
 		}
@@ -418,16 +425,14 @@ li.dropdown {
 		.row1 {
 			display: flex;
 			flex-wrap: wrap;
-			padding: 0 30px 0 30px;
-			justify-content: space-between;
+			justify-content: space-evenly;
+
 		}
 	/* size of the 6 images */
 	.img-responsive{
-	width: 360px;
-	height: 320px;
+	height: 100%;
 	position: relative;
 }
-
 
 
   /* shadow slide */
@@ -441,6 +446,9 @@ li.dropdown {
 	margin-top: 32px;
 	overflow: hidden;
 	align-items: center;
+	width: 360px;
+    height: 320px;
+	
   }
 /* shadow slide */
   #portfolio .portfolio-thumb .portfolio-overlay {
@@ -536,7 +544,7 @@ li.dropdown {
   
 			  
   
-		/*start 23. JavaScript */
+		/*start JavaScript */
 		/* ----------- CHATBOT STYLE--------- */
 .chat-circle_robot {
 	/*     margin-left: -7%; */
@@ -610,7 +618,7 @@ li.dropdown {
 		position: fixed;
 		bottom: 50px;
 		/*right: 50px;*/
-		right: 50px;
+		right: 20px;
 		width: 80px;
 		height: 80px;
 		border-radius: 50%;
@@ -1776,7 +1784,7 @@ li.dropdown {
 >>>>>>> 103e22ca48eef1e104bd1602879ed89012554d92
 
 /*start footer responsive tablette*/
-@media (max-width:950px) and (min-width:700px){
+@media screen and (min-width: 481px) and (max-width: 1024px) {
 	/*start header responsive tablette*/
 	.navigation{
 		display: none;
@@ -1799,6 +1807,12 @@ li.dropdown {
 		flex-direction: column;
 	}
 
+	.row1{
+	     flex-wrap: wrap;
+		flex-direction: column;
+		align-content: space-around;
+	}
+
 	.text{
 		padding-top: 0;
 	}
@@ -1809,6 +1823,11 @@ li.dropdown {
 >>>>>>> 103e22ca48eef1e104bd1602879ed89012554d92
 	.recettes-question{
 		gap:2rem;
+	}
+
+	
+	.chat-logs {
+			height: 40vh;
 	}
 
 	.bottoms{
