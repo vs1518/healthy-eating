@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;600&display=swap');
 
 
 body{
@@ -16,7 +17,7 @@ body{
 	max-width: 1200px;
 	margin: 0px auto;
 	padding-top: 90px;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Noto Serif', serif;
 	background-color: #fff;
 }
 
@@ -402,7 +403,7 @@ li.dropdown {
 		
 		h2{
 			margin: 0px;
-			font-family: 'Noto Serif', serif;
+			font-family: 'inter';
 			font-weight: 700;
 		}
 
@@ -554,7 +555,7 @@ li.dropdown {
 	
 	.chat-box-welcome__company-name,
 	.chat-box__sign {
-	font-family: 'Noto Serif', serif;
+	font-family: 'inter';
 	position: relative;
 	}
 	
@@ -1069,7 +1070,7 @@ li.dropdown {
 				width: 100%;
 				margin: 0 auto;
 				padding: 20px;
-				font-family: 'Noto Serif', serif;
+				font-family: 'inter';
 				background-color: #fff;
 			  }
 			  
