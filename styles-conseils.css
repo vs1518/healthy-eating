@@ -68,12 +68,10 @@ li a, .dropbtn {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	
   }
 
   li a, .dropdown .dropbtn{
 	color: #6a9f62;
-
   }
     
 li a:hover, .dropdown:hover .dropbtn {
@@ -86,7 +84,6 @@ li.dropdown {
 	color: #6a9f62;
   }
   
-
 .dropdown-content {
 	display: none;
 	position: absolute;
@@ -99,9 +96,7 @@ li.dropdown {
   }
   
 .dropdown-content a {
-	
 	padding: 12px 16px;
-	
 	display: block;
 	text-align: left;
 	color: #6a9f62;
@@ -133,8 +128,6 @@ li.dropdown {
 
 
 
-
-
 .banner{
     background-image: linear-gradient( hsla(0, 0%, 100%, 0.0), hsla(0, 0%, 100%, 1)), url(images_index/fruit_legum.jpg);
     background-color: rgb(0, 0, 0);
@@ -146,15 +139,12 @@ li.dropdown {
 
 }
 
-
 .description_banner{
     padding-right: 20rem;
     line-height: 1.7rem;
 	color: #000;
 	font-size: 1.5rem;
 }
-
-
 
 
 .image_article{
@@ -170,12 +160,10 @@ li.dropdown {
 
 h3{
 	font-size:2rem;
-
 }
 
 .temps{
 	color: #3c6845;
-
 }
 
 .container_all{
@@ -191,7 +179,6 @@ h3{
 }
 
 .card{
-	
  	background-color: #5B9279;
     border-radius: 10px;
     display: flex;
@@ -209,9 +196,7 @@ h3{
   }
 
 .image_article{
-	
 	width: 200px;
-
 }
 
 
@@ -258,14 +243,12 @@ h3{
     padding: 1rem;
 	text-decoration:none;
 	color: #FFF;
-    
 }
 
 
 h4:hover{
 	text-decoration: underline;
 	cursor: pointer;
-	
 }
 
 .pages{
@@ -286,6 +269,7 @@ h4:hover{
 .pagination{
     list-style: none;
     margin: auto;
+	margin-bottom: 30px;
     padding: auto;
     display: flex;
     font-family: bold;
@@ -457,8 +441,6 @@ h4:hover{
 				color: white;
 				padding: 22px;
 			}
-			
-			
 			
 			
 			.chat-box-welcome_robot {
@@ -658,7 +640,6 @@ h4:hover{
 				text-align: center;
 			}
 			
-			
 			.chat-msg {
 				clear: both;
 			}
@@ -682,7 +663,6 @@ h4:hover{
 			
 			
 			/*loader*/
-			
 			
 			.spin-container {
 				   /* padding: 0px 15px 0px 15px; */
@@ -763,10 +743,6 @@ h4:hover{
 
 
 
-
-
-
-
 /* start footer */
 
 .footer {
@@ -790,7 +766,6 @@ h4:hover{
 	display: flex;
 	justify-content: flex-start;
 	color: #4e7948;
-
 }
 
 .menu-simple .fa-brands {
@@ -805,7 +780,6 @@ h4:hover{
 .bottoms{
 	display: flex;
 	gap: 450px;	
-	
 }
 
 .mail:hover{
