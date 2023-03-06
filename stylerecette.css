@@ -408,8 +408,7 @@ h1{
 }
 
 .image-minceur{   
-    background-image:url(/pexels-valeria-boltneva-842571.jpg);
-    background-repeat: no-repeat;
+    background-image:url(images_recettes/image-minceur.jpg);
     background-size: cover;
     width: 100%;
     height:70%;
@@ -418,12 +417,11 @@ h1{
 	background-position: center;
 }
 .image-minceur:hover{
-	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(/pexels-valeria-boltneva-842571.jpg);
+	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(images_recettes/image-minceur.jpg);
 	cursor: pointer;
 }
 .image-legume{
-    background-image:url(/pexels-pixabay-53148.jpg);
-    background-repeat: no-repeat;
+    background-image:url(images_recettes/legume.jpg);
     background-size: cover;
     width: 100%;
     height:70%;
@@ -432,11 +430,11 @@ h1{
 	background-position: center;
 }
 .image-legume:hover{
-	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(/pexels-pixabay-53148.jpg);
+	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(images_recettes/legume.jpg);
 	cursor: pointer;
 }
 .image-healthy{
-    background-image:url(/pexels-kyle-killam-129605.jpg);
+    background-image:url(images_recettes/healthy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -446,7 +444,7 @@ h1{
 	background-position: center;
 }
 .image-healthy:hover{
-	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(/pexels-kyle-killam-129605.jpg);
+	background-image: linear-gradient(hsla(0,0%,100%,0.5),hsla(0,0%,100%,0.5)),url(images_recettes/healthy.jpg);
 	cursor: pointer;
 }
 
