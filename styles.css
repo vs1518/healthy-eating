@@ -35,13 +35,7 @@ body{
 .logo img{
 	float: left;
 	width: 50px;
-<<<<<<< HEAD
-	height: 49px;
-	background-color: #fff;
-
-=======
 	height: 50px;
->>>>>>> 103e22ca48eef1e104bd1602879ed89012554d92
 }
 
 /* buttons on the right side */
