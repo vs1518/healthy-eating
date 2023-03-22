@@ -3,6 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@300;600&display=swap');
 
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	background-image: url(background-healthy-eating.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .banner{ /*image haut de page*/
     /*filtre dégradé blanc*/
     background-image: linear-gradient( hsla(0, 0%, 100%, 0.1), hsla(0, 0%, 100%, 1)), url(images_contact/contact_banner.jpg);
