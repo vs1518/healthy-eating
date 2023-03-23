@@ -358,7 +358,7 @@ h1{
 }
 
 .entet{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 1)), url(nadine-primeau--ftWfohtjNw-unsplash.jpg);
+	background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 1)), url(images_recettes/brooke-lark-oaz0raysASk-unsplash.jpg);
     background-color: rgb(0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
@@ -366,6 +366,13 @@ h1{
     padding: 3rem;
 	margin: -10px;
 }
+
+
+.entet{
+	height: 20%;
+	padding: 1rem;
+}
+
 
 .image-vegan{
     background-color: black;
@@ -1133,13 +1140,6 @@ input {
 	margin: 0px;
 	}
 
-	.entet{
-		height: 20%;
-        padding: 1rem;
-	}
-
-	
-
 	.text{
 		width: 100%;
 		border-radius: 0 0 10px 10px;
@@ -1148,10 +1148,6 @@ input {
 		margin: 2rem 0 2rem 1.5rem;
 	}
 	
-		
-
-
-
 	.footer{
 		margin: 0;
 	}
@@ -1438,14 +1434,6 @@ h1{
 	font-size: 42px;
 }
 
-.entet{
-    background-image: linear-gradient( hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 1)), url(nadine-primeau--ftWfohtjNw-unsplash.jpg);
-    background-color: rgb(0, 0, 0);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 3rem;
-}
 
 .image-vegan{
     background-color: black;
@@ -2190,13 +2178,6 @@ h2:hover{
 	width: 90%;
 	margin: 0px;
 	}
-
-	.entet{
-		height: 20%;
-        padding: 1rem;
-	}
-
-	
 
 	.text{
 		width: 100%;
